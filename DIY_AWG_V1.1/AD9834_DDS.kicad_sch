@@ -6865,7 +6865,7 @@
 		)
 		(uuid "8f86df5d-1cb7-4a22-89aa-eb6be217c793")
 	)
-	(label "DC_OFFSET"
+	(label "DC_GAIN"
 		(at 132.08 66.04 0)
 		(effects
 			(font
