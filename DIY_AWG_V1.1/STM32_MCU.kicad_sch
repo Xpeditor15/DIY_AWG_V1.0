@@ -6438,6 +6438,16 @@
 		)
 		(uuid "8bde6534-7934-417c-87a2-be5f722887be")
 	)
+	(text "DAC1_OUT1: Custom waveform output\nDAC2_OUT1: DC offset output"
+		(exclude_from_sim no)
+		(at 193.548 48.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c611c10-f77b-4555-9f44-177cad15a2f3")
+	)
 	(text "USB-C Connection\n"
 		(exclude_from_sim no)
 		(at 28.448 128.016 0)
