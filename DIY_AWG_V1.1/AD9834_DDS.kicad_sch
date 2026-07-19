@@ -2936,7 +2936,7 @@
 		)
 		(uuid "b472dbba-775c-4c47-88e8-3227960e7bb3")
 	)
-	(text "A: Custom Waveform from STM32 DAC\nB: Sine Waveform from AD9834\nC: DC Gain for LMH6505\nD: Constant 1.65V Reference"
+	(text "A: Custom Waveform from STM32 DAC\nB: Sine Waveform from AD9834\nC: DC Gain for LMH6505\nD: Constant 0.157V Reference"
 		(exclude_from_sim no)
 		(at 152.4 100.33 0)
 		(effects
@@ -8182,7 +8182,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "20k"
 			(at 157.48 74.168 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12903,7 +12903,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 155.702 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
