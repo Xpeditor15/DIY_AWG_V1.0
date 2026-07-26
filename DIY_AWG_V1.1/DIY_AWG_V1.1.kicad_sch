@@ -251,7 +251,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "faa0e7f2-4ad4-4392-8346-980541b6a840")
-		(property "Sheetname" "Amplfier"
+		(property "Sheetname" "Amplifier"
 			(at 238.76 126.2884 0)
 			(show_name no)
 			(do_not_autoplace no)

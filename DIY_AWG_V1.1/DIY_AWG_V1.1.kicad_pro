@@ -645,7 +645,7 @@
         "uuid": "508078af-d961-4af3-840e-a064a9f8d5bc"
       }
     ],
-    "used_designators": "L4,L12-15,#PWR4,#PWR13,#PWR17,#PWR21,#PWR25,#PWR34,#PWR38-39,#PWR73-75,#PWR78-79,#PWR174-199,U3,U6-7,U10,U17,C7,C12-13,C16-17,C19,C21,C33-34,C80-86,TP4,TP31-33,R5-6,R9-10,R13-15,R48",
+    "used_designators": "R49-50,L5,#PWR5,#PWR14,#PWR18,#PWR22,#PWR26,#PWR35,#PWR200,C8,C14,C87,TP5,U18",
     "variants": []
   },
   "sheets": [
@@ -675,7 +675,7 @@
     ],
     [
       "faa0e7f2-4ad4-4392-8346-980541b6a840",
-      "Amplfier"
+      "Amplifier"
     ]
   ],
   "text_variables": {},
