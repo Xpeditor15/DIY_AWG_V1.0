@@ -1606,9 +1606,9 @@
 		)
 		(uuid "56b909c2-9be6-41ce-a18e-f1778ff09ce9")
 	)
-	(text "0.1uF MLCC (4): GCM188R71E224KA55D (4)\n6.8uF MLCC (4): CL31A226KOHNNNE (4)\n\n50 Resistor (1): RT0603BRD0750RL (1)\n1k Resistor (1): THD03G1001BT (1)"
+	(text "0.1uF MLCC (4): GCM188R71E224KA55D (4)\n6.8uF MLCC (4): CL31A226KOHNNNE (4)\n\n50 Resistor (1): RT0603BRD0750RL (1)\n237 Resistor (1): ARG03BTC2370 (1)\n249 Resistor (1): AR03BTCX2490 (1)\n1k Resistor (1): THD03G1001BT (1)\n1.3k Resistor (1): RT0603BRE071K3L (1)"
 		(exclude_from_sim no)
-		(at 20.574 84.074 0)
+		(at 19.05 88.392 0)
 		(effects
 			(font
 				(size 1.27 1.27)
