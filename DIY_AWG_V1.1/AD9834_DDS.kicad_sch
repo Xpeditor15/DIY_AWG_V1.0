@@ -2926,6 +2926,17 @@
 		)
 		(uuid "a504dcd1-1b49-4545-b9cd-fbd631bf4945")
 	)
+	(text "8.2pF MLCC (1): 0402CG8R2G500NT (1)\n20pF MLCC (1): TCC0603COG200G500CT (1)\n24pF MLCC (1): TCC0603COG240G500CT (1)\n39pF MLCC (1): GRM1885C2E390FW07D (1)\n47pF MLCC (1): C0603C470F5GACAUTO (1)\n68pF MLCC (1): CC0603GRNPO9BN680 (1)\n75pF MLCC (1): CC0603GRNPO9BN750 (1)\n82pF MLCC (1): GCM1885C2A820FA16D (1)"
+		(exclude_from_sim no)
+		(at 118.872 33.274 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa56f406-4b1d-40dc-9d18-2f593ffb89d7")
+	)
 	(text "7th Order Elliptical Filter\n"
 		(exclude_from_sim no)
 		(at 30.48 15.24 0)
@@ -2958,7 +2969,7 @@
 	)
 	(text "1. Add single-channel opamp for producing DC_OFFSET signal\n2. Produce DC_OFFSET signal ranging from -1.65V to 1.65V\n3. Connect the DC_OFFSET signal to the gain input of the THS3091"
 		(exclude_from_sim no)
-		(at 147.32 38.354 0)
+		(at 148.082 17.272 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7272,7 +7283,7 @@
 				)
 			)
 		)
-		(property "Value" "45p"
+		(property "Value" "47p"
 			(at 44.958 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8499,7 +8510,7 @@
 				)
 			)
 		)
-		(property "Value" "1.88u"
+		(property "Value" "1.8u"
 			(at 87.63 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9372,7 +9383,7 @@
 				)
 			)
 		)
-		(property "Value" "1.56u"
+		(property "Value" "1.5u"
 			(at 72.39 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9844,7 +9855,7 @@
 				)
 			)
 		)
-		(property "Value" "82.5p"
+		(property "Value" "82p"
 			(at 75.438 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10079,7 +10090,7 @@
 				)
 			)
 		)
-		(property "Value" "8.3p"
+		(property "Value" "8.2p"
 			(at 87.63 22.098 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12268,7 +12279,7 @@
 				)
 			)
 		)
-		(property "Value" "1.08u"
+		(property "Value" "1u"
 			(at 57.15 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13623,7 +13634,7 @@
 				)
 			)
 		)
-		(property "Value" "25p"
+		(property "Value" "24p"
 			(at 72.39 22.098 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14253,7 +14264,7 @@
 				)
 			)
 		)
-		(property "Value" "38p"
+		(property "Value" "39p"
 			(at 57.15 22.098 90)
 			(show_name no)
 			(do_not_autoplace no)

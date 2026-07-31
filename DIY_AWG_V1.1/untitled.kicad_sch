@@ -2923,7 +2923,7 @@
 		)
 		(uuid "0761bdc9-916e-48fc-9be0-0cdee5e03376")
 	)
-	(text "4.7nF MLCC (2): 04023C472KAT2A (2)\n2.2uF MLCC (8): CL21B335KAFNFNE (8)\n22uF MLCC (4): GRM31CR61E476ME44L (8)\n47uF MLCC (4): GRM31CR61E476ME44L (4)\n\n22uF Tantalum Cap (2): TAJB226K016RNJ (2)\n22uF Polymer Tantalum Cap (4): T55B226M016C0070 (4)\n\n1.5uH Inductor (2): CMLO252010F1R5MTT (2)\n0.47uH Inductor (2): MNR252010TR47NT (2)\n0.33uH Inductor (2): CMLO252010FR33MTT (2)\n\n400m Resistor (6): PE0805FRF070R4L (10)\n162k Resistor (2): PTFR0603D162KP9 (2)\n21.5k Resistor (1): ARG03DTC2152 (1)\n49.9k Resistor (1): ERA-3AED4992V (1)"
+	(text "4.7nF MLCC (2): 04023C472KAT2A (2)\n2.2uF MLCC (4): CL21B335KAFNFNE (4)\n10uF MLCC (4): CL10A106MO8NQNC (4)\n22uF MLCC (12): GRM31CR61C226KE15L (12)\n\n22uF Tantalum Cap (2): TAJB226K016RNJ (2)\n22uF Polymer Tantalum Cap (4): T55B226M016C0070 (4)\n\n1.5uH Inductor (2): CMLO252010F1R5MTT (2)\n0.47uH Inductor (2): MNR252010TR47NT (2)\n0.33uH Inductor (2): CMLO252010FR33MTT (2)\n\n400m Resistor (6): PE0805FRF070R4L (10)\n162k Resistor (2): PTFR0603D162KP9 (2)\n21.5k Resistor (1): ARG03DTC2152 (1)\n49.9k Resistor (1): ERA-3AED4992V (1)"
 		(exclude_from_sim no)
 		(at 108.966 32.258 0)
 		(effects
@@ -2934,7 +2934,7 @@
 		)
 		(uuid "2f5e6d82-1e75-4b3f-b0cd-df15974e098a")
 	)
-	(text "Place 2 GRM31CR61E476ME44L in parallel"
+	(text "Place 2 GRM31CR61C226KE15L in parallel\n(eff. cap - 10uF)"
 		(exclude_from_sim no)
 		(at 194.056 111.506 0)
 		(effects
@@ -2974,7 +2974,7 @@
 		)
 		(uuid "54f2a0fe-a9e0-4862-b220-f3e5fade5951")
 	)
-	(text "Place GRM31CR61E476ME44L & \nT55B226M016C0070 in parallel"
+	(text "Place GRM31CR61C226KE15L & \nT55B226M016C0070 in parallel"
 		(exclude_from_sim no)
 		(at 136.652 227.838 0)
 		(effects
@@ -2994,7 +2994,7 @@
 		)
 		(uuid "6fa15b86-cf8a-4bb9-94b5-bf5d3884e222")
 	)
-	(text "Place 2 GRM31CR61E476ME44L in parallel"
+	(text "Place 2 GRM31CR61C226KE15L in parallel\n(eff. cap - 10uF)"
 		(exclude_from_sim no)
 		(at 40.64 201.422 0)
 		(effects
@@ -3004,7 +3004,7 @@
 		)
 		(uuid "70d5e2b2-ddbc-4563-8a8c-b6f30d81239c")
 	)
-	(text "Place GRM31CR61E476ME44L & \nT55B226M016C0070 in parallel"
+	(text "Place GRM31CR61C226KE15L & \nT55B226M016C0070 in parallel"
 		(exclude_from_sim no)
 		(at 137.922 201.93 0)
 		(effects
@@ -3074,7 +3074,7 @@
 		)
 		(uuid "9c564a12-26ed-41f5-b36e-81be0acffccf")
 	)
-	(text "Place GRM31CR61E476ME44L & \nT55B226M016C0070 in parallel"
+	(text "Place GRM31CR61C226KE15L & \nT55B226M016C0070 in parallel"
 		(exclude_from_sim no)
 		(at 285.242 86.614 0)
 		(effects
@@ -3124,7 +3124,7 @@
 		)
 		(uuid "aa7ee5e8-6d17-4619-a020-6e058bf1fef2")
 	)
-	(text "Place 2 GRM31CR61E476ME44L in parallel"
+	(text "Place 2 GRM31CR61C226KE15L in parallel\n(eff. cap - 10uF)"
 		(exclude_from_sim no)
 		(at 41.656 251.714 0)
 		(effects
@@ -3194,7 +3194,7 @@
 		)
 		(uuid "cf3cb157-6ac6-4e4b-a2dd-3708223429da")
 	)
-	(text "Place GRM31CR61E476ME44L & \nT55B226M016C0070 in parallel"
+	(text "Place GRM31CR61C226KE15L & \nT55B226M016C0070 in parallel"
 		(exclude_from_sim no)
 		(at 284.734 57.15 0)
 		(effects
@@ -3204,7 +3204,7 @@
 		)
 		(uuid "d3c3f3fd-3488-44f6-9421-a33531be6fb1")
 	)
-	(text "Place 2 GRM31CR61E476ME44L in parallel"
+	(text "Place 2 GRM31CR61C226KE15L in parallel\n(eff. cap - 10uF)"
 		(exclude_from_sim no)
 		(at 192.786 56.388 0)
 		(effects
@@ -7560,7 +7560,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "10u"
 			(at 102.87 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8471,7 +8471,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "10u"
 			(at 43.18 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13043,7 +13043,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "22u"
 			(at 290.83 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13284,7 +13284,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "22u"
 			(at 279.4 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14077,7 +14077,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "10u"
 			(at 102.87 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14239,7 +14239,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "22u"
 			(at 140.97 238.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14560,7 +14560,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "22u"
 			(at 128.27 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15031,7 +15031,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "10u"
 			(at 43.18 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
