@@ -3435,6 +3435,12 @@
 		(uuid "8683f11e-59c9-4570-9891-e04c14366524")
 	)
 	(junction
+		(at 80.01 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a9685be-3f4d-4559-97ad-ab69dbf6a716")
+	)
+	(junction
 		(at 26.67 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3517,6 +3523,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b803680c-9d17-4245-86a7-170c1da20b2a")
+	)
+	(junction
+		(at 33.02 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b894309f-ed7c-4ebd-8e4d-6b9609cf5fe6")
 	)
 	(junction
 		(at 116.84 238.76)
@@ -4386,6 +4398,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 48.26) (xy 81.28 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e8291c-5e0e-41bc-b39c-421e45e5d132")
+	)
+	(wire
+		(pts
 			(xy 182.88 38.1) (xy 185.42 38.1)
 		)
 		(stroke
@@ -4773,6 +4795,16 @@
 			(type default)
 		)
 		(uuid "55fd9ce5-0f42-45a1-a72b-251cc158f632")
+	)
+	(wire
+		(pts
+			(xy 33.02 29.21) (xy 36.83 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "560fd74b-f674-49d5-9cf3-7b839436df36")
 	)
 	(wire
 		(pts
@@ -5956,7 +5988,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 29.21) (xy 36.83 29.21)
+			(xy 20.32 29.21) (xy 33.02 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6166,7 +6198,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 48.26) (xy 81.28 48.26)
+			(xy 77.47 48.26) (xy 80.01 48.26)
 		)
 		(stroke
 			(width 0)
@@ -14620,6 +14652,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 80.01 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c1ae27d9-d7f9-42a8-abad-a978f7c999bb")
+		(property "Reference" "TP6"
+			(at 78.232 42.418 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 75.946 42.672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 80.01 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29f6c9a0-984a-446d-8bee-7b002d4494e3")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 212.09 105.41 0)
 		(unit 1)
@@ -15558,6 +15669,85 @@
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 33.02 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e473e10c-d20f-4809-a298-942c129d838c")
+		(property "Reference" "TP7"
+			(at 31.242 23.368 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 28.956 23.622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be1aa99f-dd47-4363-a53d-3c2953779934")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
