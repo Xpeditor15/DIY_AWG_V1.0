@@ -144,52 +144,6 @@
 		)
 	)
 	(sheet
-		(at 166.37 129.54)
-		(size 35.56 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "92640c45-43b2-4121-9b9a-c8773f32ae50")
-		(property "Sheetname" "Temp"
-			(at 166.37 128.8284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "temp.kicad_sch"
-			(at 166.37 145.3646 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "DIY_AWG_V1.1"
-				(path "/508078af-d961-4af3-840e-a064a9f8d5bc"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 240.03 43.18)
 		(size 41.91 21.59)
 		(exclude_from_sim no)

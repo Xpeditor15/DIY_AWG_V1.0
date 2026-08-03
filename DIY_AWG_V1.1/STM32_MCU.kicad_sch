@@ -7954,7 +7954,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04c5bd78-a8e9-4698-a2a7-250fcbf09b71")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR064"
 			(at 24.13 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8015,7 +8015,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR0213")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -8033,7 +8033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07d15ee4-5bba-4763-9366-c2bf637814ca")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR066"
 			(at 35.56 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -8094,7 +8094,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR0209")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -8111,7 +8111,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0877e15a-bf0f-432a-8cee-87e02b20e146")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR075"
 			(at 85.09 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8172,7 +8172,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR0214")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -8189,7 +8189,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f4b9b52-0de3-4300-9ca6-2c48e2a8e5de")
-		(property "Reference" "TP34"
+		(property "Reference" "TP9"
 			(at 43.688 164.592 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8251,7 +8251,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "TP34")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -8268,7 +8268,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "245f6b03-b169-4a4d-9465-0f6d7d09b4c2")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR085"
 			(at 248.92 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -8328,7 +8328,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR076")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -8346,7 +8346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "270ce09f-2d27-43f2-87fb-c6e3cc64b389")
-		(property "Reference" "#PWR0212"
+		(property "Reference" "#PWR065"
 			(at 24.13 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8407,7 +8407,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR0212")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -8425,7 +8425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f8f2ce5-6902-4f67-974d-4b6b3009d985")
-		(property "Reference" "U19"
+		(property "Reference" "U8"
 			(at 40.132 116.586 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8504,7 +8504,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "U19")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -8522,7 +8522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31e325a3-af74-45f2-a59e-adbf7639869c")
-		(property "Reference" "R19"
+		(property "Reference" "R13"
 			(at 200.66 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8584,7 +8584,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "R19")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8601,7 +8601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35fda4e2-841b-4ebf-8078-36cfc247296b")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR086"
 			(at 248.92 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8661,7 +8661,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR077")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -8680,7 +8680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ae89789-b52d-41d4-b75e-e5ef3c692a9b")
-		(property "Reference" "#PWR0210"
+		(property "Reference" "#PWR067"
 			(at 34.29 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -8741,7 +8741,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR0210")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -8839,7 +8839,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4afab82c-6f8a-4daf-88be-7be3e06760fd")
-		(property "Reference" "C32"
+		(property "Reference" "C42"
 			(at 159.004 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8903,7 +8903,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "C32")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -8921,7 +8921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bfe64bd-c405-4e1a-bc22-c0a11dae6a88")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR084"
 			(at 213.36 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8982,7 +8982,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR072")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -8999,7 +8999,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ccc278e-62bd-4e9c-8cb0-dd403d636e6b")
-		(property "Reference" "R52"
+		(property "Reference" "R12"
 			(at 74.168 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9063,7 +9063,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "R52")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9080,7 +9080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4df0b61e-8855-4d18-9e47-88d5fcbe4f55")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR071"
 			(at 59.69 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9141,7 +9141,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR0218")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -9158,7 +9158,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60ca3afc-1017-40ad-be68-3ef883173a88")
-		(property "Reference" "C23"
+		(property "Reference" "C33"
 			(at 67.564 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9222,7 +9222,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "C23")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -9239,7 +9239,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66c7e642-e5fa-491d-a375-0793f46a5bc0")
-		(property "Reference" "U9"
+		(property "Reference" "U10"
 			(at 135.382 178.308 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9598,7 +9598,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "U9")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -9615,7 +9615,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6848f36e-bdc1-4615-be90-a47f719d2a0c")
-		(property "Reference" "#PWR0216"
+		(property "Reference" "#PWR068"
 			(at 39.37 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -9676,7 +9676,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR0216")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -9694,7 +9694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a7650c8-a715-49ed-811b-41e74d5f02d1")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR082"
 			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9755,7 +9755,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR070")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -9772,7 +9772,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7256a9ac-66fe-4f7f-9271-c632ae1e8b86")
-		(property "Reference" "#PWR0215"
+		(property "Reference" "#PWR074"
 			(at 85.09 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9833,7 +9833,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR0215")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -9970,7 +9970,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ff029b1-bd0a-412f-8b3a-218d82ce01a8")
-		(property "Reference" "C31"
+		(property "Reference" "C41"
 			(at 148.844 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10034,7 +10034,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "C31")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -10051,7 +10051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83f6e8aa-dd93-4a5f-8442-3d9bc3bb62bf")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR081"
 			(at 173.99 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10112,7 +10112,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR069")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -10130,7 +10130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "892ab0b7-8012-47a1-9db9-d16ec1e8e024")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR083"
 			(at 187.96 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -10190,7 +10190,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR071")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -10208,7 +10208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e3ea9ff-a570-4850-92c1-4243306436d1")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR076"
 			(at 105.41 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10269,7 +10269,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR064")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -10287,7 +10287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96392f00-d37f-4fc5-92d4-c34c534dfec2")
-		(property "Reference" "C27"
+		(property "Reference" "C37"
 			(at 92.71 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10351,7 +10351,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "C27")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -10368,7 +10368,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a7df524-adec-4724-a49f-341c8bd5d26f")
-		(property "Reference" "C25"
+		(property "Reference" "C35"
 			(at 77.724 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10432,7 +10432,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "C25")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -10450,7 +10450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6f610e4-0488-41f1-adff-5f731cddaee8")
-		(property "Reference" "#PWR0217"
+		(property "Reference" "#PWR069"
 			(at 39.37 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10511,7 +10511,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR0217")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -10529,7 +10529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b438c17b-8ece-44d5-bbd6-a00c621ee380")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 233.68 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10623,7 +10623,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10640,7 +10640,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7d2a5b0-3ebe-49e2-afaf-287c95d3b947")
-		(property "Reference" "C22"
+		(property "Reference" "C32"
 			(at 59.944 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10704,7 +10704,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "C22")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -10723,7 +10723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c022575a-be62-4395-b1a5-9958e50cf4d3")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR072"
 			(at 83.82 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -10784,7 +10784,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR0208")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -10802,7 +10802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c133ecd6-f9c2-4d63-b16b-b958da121419")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR077"
 			(at 124.46 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -10862,7 +10862,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR065")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -10879,7 +10879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2f6d354-1218-40e0-9f33-91d33aa32dc4")
-		(property "Reference" "R51"
+		(property "Reference" "R11"
 			(at 32.512 93.726 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10943,7 +10943,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "R51")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -10960,7 +10960,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8167f1b-b8df-47ff-a8d0-33100f0b9901")
-		(property "Reference" "C24"
+		(property "Reference" "C34"
 			(at 70.104 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11024,7 +11024,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "C24")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -11041,7 +11041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cbbc250c-b25a-4cc4-89b9-fca1598a42ae")
-		(property "Reference" "C94"
+		(property "Reference" "C43"
 			(at 169.164 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11105,7 +11105,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "C94")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -11123,7 +11123,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ccb6ef1b-916e-4810-88b9-23aff6abe550")
-		(property "Reference" "C98"
+		(property "Reference" "C31"
 			(at 31.496 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11187,7 +11187,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "C98")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -11205,7 +11205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d733dd19-c032-4b47-902f-487b11c291de")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR073"
 			(at 85.09 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -11266,7 +11266,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR063")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -11365,7 +11365,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df44797e-bcf0-4d8e-9784-c28e1e506d9d")
-		(property "Reference" "C28"
+		(property "Reference" "C38"
 			(at 97.79 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11429,7 +11429,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "C28")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -11446,7 +11446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e012d5c1-499c-4f9d-a503-d5a328727777")
-		(property "Reference" "C29"
+		(property "Reference" "C39"
 			(at 107.95 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11510,7 +11510,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "C29")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -11528,7 +11528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2efdf4d-c74b-4402-adb3-bc6b33520eae")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR078"
 			(at 133.35 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -11589,7 +11589,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR066")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -11606,7 +11606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e60f5882-7f05-4911-a8ba-5366334ae466")
-		(property "Reference" "C26"
+		(property "Reference" "C36"
 			(at 87.884 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11670,7 +11670,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "C26")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -11688,7 +11688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e74cbeb6-16a8-4742-9431-0a9b3e7b701c")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR079"
 			(at 139.7 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -11748,7 +11748,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR067")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -11766,7 +11766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7dd8054-2791-4453-8add-fe7bd868e03b")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR080"
 			(at 156.21 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11827,7 +11827,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR068")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -11845,7 +11845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec13b5a3-6878-4af9-8688-75d27338d42f")
-		(property "Reference" "U1"
+		(property "Reference" "U9"
 			(at 55.88 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11973,7 +11973,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "U1")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -11991,7 +11991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec6715de-4899-4edb-be61-b4543a8611f9")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR070"
 			(at 57.15 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -12052,7 +12052,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "#PWR061")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -12069,7 +12069,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f392ec1c-b5cb-4692-aa80-09bb2ccf571b")
-		(property "Reference" "C30"
+		(property "Reference" "C40"
 			(at 118.364 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12133,7 +12133,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "C30")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -12151,7 +12151,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f673c750-458b-4af2-843b-0647d87740c8")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 186.944 78.994 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12219,7 +12219,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
