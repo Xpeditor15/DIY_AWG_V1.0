@@ -700,178 +700,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "RL20108Q0332LC_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "easyeda2kicad:RL20108Q0332LC"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 12.7 0)
+			(property "Reference" "D1"
+				(at 19.05 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -881,7 +717,7 @@
 				)
 			)
 			(property "Value" "RL20108Q0332LC"
-				(at 0 -12.7 0)
+				(at 16.51 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -956,7 +792,7 @@
 					)
 				)
 			)
-			(symbol "RL20108Q0332LC_0_1"
+			(symbol "RL20108Q0332LC_1_0_1"
 				(rectangle
 					(start -13.97 2.54)
 					(end 13.97 -2.54)
@@ -1232,7 +1068,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 -7.62 90)
 					(length 5.08)
 					(name "1"
@@ -1250,7 +1086,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -1.27 -7.62 90)
 					(length 5.08)
 					(name "2"
@@ -1268,7 +1104,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 1.27 -7.62 90)
 					(length 5.08)
 					(name "3"
@@ -1286,7 +1122,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 -7.62 90)
 					(length 5.08)
 					(name "4"
@@ -1304,7 +1140,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 7.62 270)
 					(length 5.08)
 					(name "5"
@@ -1322,7 +1158,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 1.27 7.62 270)
 					(length 5.08)
 					(name "6"
@@ -1340,7 +1176,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -1.27 7.62 270)
 					(length 5.08)
 					(name "7"
@@ -1358,7 +1194,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 7.62 270)
 					(length 5.08)
 					(name "8"
@@ -1369,6 +1205,170 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3680,6 +3680,138 @@
 		)
 	)
 	(symbol
+		(lib_name "RL20108Q0332LC_1")
+		(lib_id "easyeda2kicad:RL20108Q0332LC")
+		(at 93.98 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "090f3290-018d-46d8-a628-ddbdb32695a5")
+		(property "Reference" "D2"
+			(at 93.98 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RL20108Q0332LC"
+			(at 93.98 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:DFN-8_L2.0-W1.0-P0.50-BL"
+			(at 109.22 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C46970962.pdf"
+			(at 111.76 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "RUILON(瑞隆源)"
+			(at 114.3 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RL20108Q0332LC"
+			(at 116.84 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C46970962"
+			(at 119.38 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "205bd72c-bece-47d4-b457-40cc071ed61e")
+		)
+		(pin "3"
+			(uuid "bb7ac4e7-bbce-443f-a703-06149f256ea7")
+		)
+		(pin "5"
+			(uuid "802e8553-007d-4167-ad13-abfa476b3b1f")
+		)
+		(pin "2"
+			(uuid "a072c432-47a3-4bec-8403-43faeacd19a7")
+		)
+		(pin "7"
+			(uuid "9854b75c-3c55-4902-b3e4-425f6980f62e")
+		)
+		(pin "8"
+			(uuid "ed8163aa-7da2-46bf-9061-c160e5cc59d4")
+		)
+		(pin "1"
+			(uuid "2ae51708-5fd1-4298-af58-b8af86d8e46f")
+		)
+		(pin "6"
+			(uuid "cf3bd267-bc30-4042-b5a1-aa6cf69941aa")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/5e4867af-4e97-464f-8d5d-dfa2d7b207c5"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 49.53 133.35 90)
 		(unit 1)
@@ -3836,6 +3968,138 @@
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/5e4867af-4e97-464f-8d5d-dfa2d7b207c5"
 					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "RL20108Q0332LC_1")
+		(lib_id "easyeda2kicad:RL20108Q0332LC")
+		(at 146.05 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12b2a46a-aae3-4851-9a54-a7307b8049ee")
+		(property "Reference" "D4"
+			(at 146.05 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RL20108Q0332LC"
+			(at 146.05 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:DFN-8_L2.0-W1.0-P0.50-BL"
+			(at 161.29 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C46970962.pdf"
+			(at 163.83 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "RUILON(瑞隆源)"
+			(at 166.37 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RL20108Q0332LC"
+			(at 168.91 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C46970962"
+			(at 171.45 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "9602f906-09d5-4a1a-bea5-1a09b8d5b8eb")
+		)
+		(pin "3"
+			(uuid "5ca587d5-c3f9-4386-9171-8f51fb2a47e8")
+		)
+		(pin "5"
+			(uuid "1ad52b2b-8309-4405-b11b-c62b12e54ae5")
+		)
+		(pin "2"
+			(uuid "5eb02467-e3d6-4cb3-b0a8-ce3f1884ece7")
+		)
+		(pin "7"
+			(uuid "e603e639-eb47-4b60-8683-0f4c26b0b675")
+		)
+		(pin "8"
+			(uuid "46cef65d-0540-4e2a-b33d-55d498e5557d")
+		)
+		(pin "1"
+			(uuid "16fd203e-85c0-4801-976e-6a19617bb215")
+		)
+		(pin "6"
+			(uuid "f55000de-2178-4182-967b-6c4a363e929d")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/5e4867af-4e97-464f-8d5d-dfa2d7b207c5"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4162,137 +4426,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:RL20108Q0332LC")
-		(at 146.05 74.93 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2fb8d39e-740f-4579-9935-d5b10245443e")
-		(property "Reference" "D4"
-			(at 146.05 55.88 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RL20108Q0332LC"
-			(at 146.05 58.42 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:DFN-8_L2.0-W1.0-P0.50-BL"
-			(at 161.29 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C46970962.pdf"
-			(at 163.83 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "RUILON(瑞隆源)"
-			(at 166.37 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RL20108Q0332LC"
-			(at 168.91 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C46970962"
-			(at 171.45 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "d4e8b600-7f9f-4a2e-9cee-9321821d5181")
-		)
-		(pin "3"
-			(uuid "8e642824-02c5-4416-a5b8-1825b87dbb15")
-		)
-		(pin "5"
-			(uuid "f3640b58-ea05-48f5-a82c-87a18ad4900c")
-		)
-		(pin "2"
-			(uuid "5839c500-1fb8-4bd9-bdd8-b760f21acc25")
-		)
-		(pin "7"
-			(uuid "2b2530f1-87ac-46a3-832a-1b3ce1a12c02")
-		)
-		(pin "8"
-			(uuid "69c8ac04-8077-4cb3-80e2-cd9ba5345812")
-		)
-		(pin "1"
-			(uuid "61ebd7d0-73e6-458c-9b44-47934ae67ec8")
-		)
-		(pin "6"
-			(uuid "593d6cd3-8138-4edf-bd66-e304939a82d9")
-		)
-		(instances
-			(project "DIY_AWG_V1.1"
-				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/5e4867af-4e97-464f-8d5d-dfa2d7b207c5"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 73.66 44.45 0)
 		(unit 1)
@@ -4607,6 +4740,138 @@
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/5e4867af-4e97-464f-8d5d-dfa2d7b207c5"
 					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "RL20108Q0332LC_1")
+		(lib_id "easyeda2kicad:RL20108Q0332LC")
+		(at 146.05 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f382f90-15a5-4d2c-a636-9d4ccbd7870c")
+		(property "Reference" "D3"
+			(at 146.05 20.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RL20108Q0332LC"
+			(at 146.05 22.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:DFN-8_L2.0-W1.0-P0.50-BL"
+			(at 161.29 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C46970962.pdf"
+			(at 163.83 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "RUILON(瑞隆源)"
+			(at 166.37 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RL20108Q0332LC"
+			(at 168.91 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C46970962"
+			(at 171.45 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "6f8829d3-229c-407a-a227-c95397080559")
+		)
+		(pin "3"
+			(uuid "3fa6b63d-9801-4655-bfc0-4abc0be08920")
+		)
+		(pin "5"
+			(uuid "63f716be-a32a-4376-8cc2-0eefc625c0a7")
+		)
+		(pin "2"
+			(uuid "7c19c950-059f-4033-8742-3c5e898a3c21")
+		)
+		(pin "7"
+			(uuid "cbc79113-7513-4306-8c57-b2213fc14c19")
+		)
+		(pin "8"
+			(uuid "624adb19-0053-41b5-b6f3-bd38631fb55b")
+		)
+		(pin "1"
+			(uuid "bc497d97-645c-4585-adb7-c8349ac47efe")
+		)
+		(pin "6"
+			(uuid "755ef4b2-a9bb-46c0-a20e-9065feb7e9ff")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/5e4867af-4e97-464f-8d5d-dfa2d7b207c5"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5014,6 +5279,7 @@
 		)
 	)
 	(symbol
+		(lib_name "RL20108Q0332LC_1")
 		(lib_id "easyeda2kicad:RL20108Q0332LC")
 		(at 93.98 39.37 90)
 		(unit 1)
@@ -5220,137 +5486,6 @@
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/5e4867af-4e97-464f-8d5d-dfa2d7b207c5"
 					(reference "SW15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:RL20108Q0332LC")
-		(at 146.05 39.37 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "902a6968-e5fd-4610-b2e1-a0790c3d509f")
-		(property "Reference" "D3"
-			(at 146.05 20.32 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RL20108Q0332LC"
-			(at 146.05 22.86 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:DFN-8_L2.0-W1.0-P0.50-BL"
-			(at 161.29 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C46970962.pdf"
-			(at 163.83 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "RUILON(瑞隆源)"
-			(at 166.37 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RL20108Q0332LC"
-			(at 168.91 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C46970962"
-			(at 171.45 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "6390bbcc-e3be-4fe5-8544-70b2f48a9f0d")
-		)
-		(pin "3"
-			(uuid "6c3d58b7-ef60-4dc7-a813-64a656f823bb")
-		)
-		(pin "5"
-			(uuid "b62cecfc-2318-4128-8953-890f7b1bd68b")
-		)
-		(pin "2"
-			(uuid "a5ed7130-56b6-424a-b2b8-a5eb1f098657")
-		)
-		(pin "7"
-			(uuid "496c6649-bdb5-42a3-bc83-ad8d48011a6e")
-		)
-		(pin "8"
-			(uuid "f7b8a73b-4956-4689-bcdf-4002bbfce05b")
-		)
-		(pin "1"
-			(uuid "64c72829-7a9e-48f8-9466-fabaa6aa6033")
-		)
-		(pin "6"
-			(uuid "94bcc7d1-8793-4bc3-9c0d-ce85e5fa4bfe")
-		)
-		(instances
-			(project "DIY_AWG_V1.1"
-				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/5e4867af-4e97-464f-8d5d-dfa2d7b207c5"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5606,137 +5741,6 @@
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/5e4867af-4e97-464f-8d5d-dfa2d7b207c5"
 					(reference "U15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:RL20108Q0332LC")
-		(at 93.98 74.93 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1c5b3b0-2893-4a2b-990d-48fae7ef6610")
-		(property "Reference" "D2"
-			(at 93.98 55.88 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RL20108Q0332LC"
-			(at 93.98 58.42 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:DFN-8_L2.0-W1.0-P0.50-BL"
-			(at 109.22 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C46970962.pdf"
-			(at 111.76 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "RUILON(瑞隆源)"
-			(at 114.3 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RL20108Q0332LC"
-			(at 116.84 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C46970962"
-			(at 119.38 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "8780c909-1d65-4cfc-97cb-9bfcd2bdfa78")
-		)
-		(pin "3"
-			(uuid "16c9cfdc-c3c2-4c2e-832d-bbb206dfac8f")
-		)
-		(pin "5"
-			(uuid "496cd5d9-64b6-4e2a-8745-c88ba6f5ef92")
-		)
-		(pin "2"
-			(uuid "c1617b44-7a51-4b20-aaf2-ec55cadbe388")
-		)
-		(pin "7"
-			(uuid "32ee18cb-5308-4480-9938-9bb885207660")
-		)
-		(pin "8"
-			(uuid "7d1b1aad-a3ae-4ee7-8e9a-6bb816d84bb2")
-		)
-		(pin "1"
-			(uuid "08b8a820-3692-4b85-adc3-c9a68e5dcf4e")
-		)
-		(pin "6"
-			(uuid "b1145016-e88e-48f8-9dbe-d60aea9f218b")
-		)
-		(instances
-			(project "DIY_AWG_V1.1"
-				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/5e4867af-4e97-464f-8d5d-dfa2d7b207c5"
-					(reference "D2")
 					(unit 1)
 				)
 			)
