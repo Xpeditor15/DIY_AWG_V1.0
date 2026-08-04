@@ -2522,6 +2522,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 44.45) (xy 24.13 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f83954d1-a23c-4291-88d9-c698765b57ca")
+	)
+	(wire
+		(pts
 			(xy 220.98 60.96) (xy 219.71 60.96)
 		)
 		(stroke
@@ -2550,46 +2560,6 @@
 		)
 		(uuid "498258b2-113f-4af5-acd5-6a4fb03fd9e5")
 	)
-	(label "DC_OFFSET"
-		(at 158.75 25.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "50b8d960-3189-454e-b4e1-c5b7f26f74ae")
-	)
-	(label "DC_GAIN"
-		(at 26.67 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "75a88f9f-d3fe-484e-8fcb-a0c1a24cc47d")
-	)
-	(label "MUX1_OUT"
-		(at 24.13 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9ca96624-e152-481a-b52f-4fa9a97a3fea")
-	)
-	(label "REF_SIG1"
-		(at 26.67 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a245bf2f-fc5d-496e-951a-d52294fe0639")
-	)
 	(label "SIG_OUT"
 		(at 219.71 53.34 0)
 		(effects
@@ -2599,6 +2569,50 @@
 			(justify left bottom)
 		)
 		(uuid "b6c4c728-11d3-431b-b244-35777fd77455")
+	)
+	(hierarchical_label "REF_SIG1"
+		(shape input)
+		(at 26.67 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ee24ed2-60e6-4ac8-b062-5c72110d4060")
+	)
+	(hierarchical_label "MUX1_OUT"
+		(shape input)
+		(at 24.13 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c2e9939-dbe5-4edd-831e-f4b35c3f41f0")
+	)
+	(hierarchical_label "DC_GAIN"
+		(shape input)
+		(at 26.67 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9bed92e-90c6-46ca-a320-42072a47ce0d")
+	)
+	(hierarchical_label "DC_OFFSET"
+		(shape input)
+		(at 158.75 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffdc3f3a-169e-4411-b3ee-6fda9739f27d")
 	)
 	(symbol
 		(lib_id "Device:R")

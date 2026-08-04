@@ -43,6 +43,136 @@
 				(justify left top)
 			)
 		)
+		(pin "DAC1_OUT1" input
+			(at 240.03 69.85 90)
+			(uuid "0be03a22-7e29-4179-a73f-e8969755a4aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REF_SIG1" input
+			(at 241.6493 69.85 90)
+			(uuid "7098c8ec-10d4-4345-aff7-01b221736c3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MUX1_OUT" input
+			(at 243.2686 69.85 90)
+			(uuid "927756e7-a1e4-4973-bcc9-7730d303da7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PSELECT" input
+			(at 244.8879 69.85 90)
+			(uuid "47e3671d-d709-41d8-8509-effe9b313f87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2_RESET" input
+			(at 246.5072 69.85 90)
+			(uuid "94dd6594-2d0d-4061-b623-6a83d41056b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2_MOSI" input
+			(at 248.1265 69.85 90)
+			(uuid "988faf0e-23bc-4864-a833-34cad87429e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2_CS" input
+			(at 249.7458 69.85 90)
+			(uuid "67f722b6-37e3-475c-aae3-d2a8e6fcbea8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FSELECT" input
+			(at 251.3651 69.85 90)
+			(uuid "8c0008a5-2038-4a76-b3a0-22ff568f592e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2_SCLK" input
+			(at 252.9844 69.85 90)
+			(uuid "7e649e9f-d4c8-4597-8b19-4300573b264f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_OFFSET" input
+			(at 254.6037 69.85 90)
+			(uuid "af487e54-d6da-4ed9-952b-0ab0e0133e30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_GAIN" input
+			(at 256.223 69.85 90)
+			(uuid "e0130cfa-f2e8-4f48-a895-3b03467e7230")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC1_OUT2" input
+			(at 257.8423 69.85 90)
+			(uuid "259a01eb-c115-4de5-8137-51252528b600")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC2_OUT1" input
+			(at 259.4616 69.85 90)
+			(uuid "09081c50-9496-4c0d-a3ea-2343135acf9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc"
@@ -181,6 +311,266 @@
 				(justify left top)
 			)
 		)
+		(pin "ENC1_B" input
+			(at 240.03 43.18 90)
+			(uuid "32b051b9-d972-42c1-b02b-dc0ee7ae583a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENC1_A" input
+			(at 241.6493 43.18 90)
+			(uuid "fd84b435-928d-48e3-9d24-b169270749f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ROW1" input
+			(at 243.2686 43.18 90)
+			(uuid "ce8aaa55-83a5-4e3c-846a-103eaa15f636")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENC1_SW2" input
+			(at 244.8879 43.18 90)
+			(uuid "fc5f4019-b7dd-4f4f-b0c9-318bface22cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC2_OUT1" input
+			(at 246.5072 43.18 90)
+			(uuid "e6187e58-6d1d-450d-90a5-888fbd114f17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC1_OUT1" input
+			(at 248.1265 43.18 90)
+			(uuid "43e55ada-af38-4254-9b68-6e150014ab86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2_SCLK" input
+			(at 249.7458 43.18 90)
+			(uuid "f201330e-b500-4d6c-aa87-d6a08764f225")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2_MOSI" input
+			(at 251.3651 43.18 90)
+			(uuid "709d8852-53bd-4837-9447-16290edc5dfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2_RESET" input
+			(at 252.9844 43.18 90)
+			(uuid "37035dfc-0c35-437f-9bb8-b5d5eb01306e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2_CS" input
+			(at 254.6037 43.18 90)
+			(uuid "0f99ade2-0992-45bb-b084-2c0fa6280a7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "COL3" input
+			(at 256.223 43.18 90)
+			(uuid "ca75e91c-3aab-4a7d-8c0b-3220b6b181af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "COL2" input
+			(at 257.8423 43.18 90)
+			(uuid "16c46562-4117-4a6d-9ae2-dcea775d91e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ROW7" input
+			(at 259.4616 43.18 90)
+			(uuid "bb084f9c-169b-4a07-a886-b4000fb7e337")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "COL1" input
+			(at 261.0809 43.18 90)
+			(uuid "56ff6b3d-3437-4439-9ff6-5a1311b3f8d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ROW6" input
+			(at 262.7002 43.18 90)
+			(uuid "9d508c14-5ea1-42cf-a978-1102ba890362")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENC2_B" input
+			(at 264.3195 43.18 90)
+			(uuid "914929ef-29ae-47a3-83dc-a4c456499618")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENC2_A" input
+			(at 265.9388 43.18 90)
+			(uuid "47e72013-6f64-430d-8152-af030007370f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ROW5" input
+			(at 267.5581 43.18 90)
+			(uuid "1794d78e-9aaa-4159-95f9-786d222af80f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ROW3" input
+			(at 269.1774 43.18 90)
+			(uuid "31127c4e-cbc2-4d51-9080-27fb52ece08e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ROW4" input
+			(at 270.7967 43.18 90)
+			(uuid "f12dc2b2-d5a0-46a4-8d0e-8975e2e8f5ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ROW2" input
+			(at 272.416 43.18 90)
+			(uuid "4f014205-0305-476e-a4a6-117720eff608")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FSELECT" input
+			(at 240.03 50.2831 180)
+			(uuid "716b4fb2-2a6e-423c-b8e5-ba8ca7bb1026")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PSELECT" input
+			(at 249.7335 43.18 90)
+			(uuid "b12377db-6917-4ffc-bc51-d9a5aa5300cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MUX1_A1" input
+			(at 251.3528 43.18 90)
+			(uuid "f9eb56e2-962a-4711-973d-61f311da9a1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MUX1_EN" input
+			(at 252.9721 43.18 90)
+			(uuid "58df4ef8-7cab-4036-b74c-1dc1f925ed86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MUX1_A0" input
+			(at 254.5914 43.18 90)
+			(uuid "e0a93ee1-4543-41a8-be68-54b3e82d3e9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc"
@@ -225,6 +615,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DC_OFFSET" input
+			(at 238.76 127 90)
+			(uuid "4384b01e-d2ed-442c-8710-6788e67fc9b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_GAIN" input
+			(at 240.3793 127 90)
+			(uuid "68546c16-3e43-4845-a481-cf588a4d5e7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MUX1_OUT" input
+			(at 241.9986 127 90)
+			(uuid "6c4ae4c4-0751-4ea1-98f0-205c5cb21efb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REF_SIG1" input
+			(at 243.6179 127 90)
+			(uuid "b11fdd4f-340c-47dc-bc99-c1373562b2a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

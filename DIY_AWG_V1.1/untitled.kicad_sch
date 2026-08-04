@@ -3267,7 +3267,7 @@
 	)
 	(rectangle
 		(start 15.24 118.11)
-		(end 127 158.75)
+		(end 128.27 158.75)
 		(stroke
 			(width 0)
 			(type default)
@@ -3279,7 +3279,7 @@
 	)
 	(rectangle
 		(start 15.24 72.39)
-		(end 118.11 113.03)
+		(end 120.65 113.03)
 		(stroke
 			(width 0)
 			(type default)
@@ -3476,7 +3476,7 @@
 		)
 		(uuid "894bee15-62d9-4e47-a1c7-5741f426f4ad")
 	)
-	(text "VDD for ADG704 (Using ADP7118 1)\n\n"
+	(text "VDD for ADG704, TLV3544 (Using ADP7118 1)\n\n"
 		(exclude_from_sim no)
 		(at 33.02 71.628 0)
 		(effects
@@ -7631,7 +7631,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3.3VA_1"
 			(at 110.744 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10077,7 +10077,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3.3VA_2"
 			(at 118.364 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
