@@ -1782,6 +1782,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 85.09) (xy 86.36 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e84473-29e4-483c-a443-b559bf9239d3")
+	)
+	(wire
+		(pts
 			(xy 78.74 39.37) (xy 81.28 39.37)
 		)
 		(stroke
@@ -2122,6 +2132,26 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 90.17) (xy 86.36 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae5c902-2b70-4471-bba3-4c532697cdbe")
+	)
+	(wire
+		(pts
+			(xy 74.93 92.71) (xy 86.36 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6b93ec-f14f-490d-8765-2fc99b5e95d6")
+	)
+	(wire
+		(pts
 			(xy 233.68 63.5) (xy 233.68 60.96)
 		)
 		(stroke
@@ -2372,6 +2402,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 87.63) (xy 86.36 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2af039-ac32-49e4-a3c5-5b7a311df7d1")
+	)
+	(wire
+		(pts
 			(xy 152.4 55.88) (xy 152.4 58.42)
 		)
 		(stroke
@@ -2522,16 +2562,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 44.45) (xy 24.13 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f83954d1-a23c-4291-88d9-c698765b57ca")
-	)
-	(wire
-		(pts
 			(xy 220.98 60.96) (xy 219.71 60.96)
 		)
 		(stroke
@@ -2550,6 +2580,26 @@
 		)
 		(uuid "05f13f85-5d0d-433d-ac1a-8dac0b2d13e3")
 	)
+	(label "MUX1_OUT"
+		(at 24.13 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22dde642-d352-4eb6-acca-44bd9e551d19")
+	)
+	(label "DC_GAIN"
+		(at 26.67 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "376042bb-d00f-44e8-9327-adf9aba08e1c")
+	)
 	(label "VGA1_OUT"
 		(at 154.94 53.34 0)
 		(effects
@@ -2559,6 +2609,46 @@
 			(justify left bottom)
 		)
 		(uuid "498258b2-113f-4af5-acd5-6a4fb03fd9e5")
+	)
+	(label "MUX1_OUT"
+		(at 74.93 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a1bb300-dbf4-434b-9f35-8f4fcd6d0d9b")
+	)
+	(label "DC_OFFSET"
+		(at 158.75 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b6a3225-73d0-41ca-83a5-c146bc102851")
+	)
+	(label "DC_OFFSET"
+		(at 74.93 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3c16141-e0e7-42b2-98a3-c6c8997be1ff")
+	)
+	(label "REF_SIG1"
+		(at 26.67 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "acdecea9-3b07-4f6a-ad28-f92507c3dbee")
 	)
 	(label "SIG_OUT"
 		(at 219.71 53.34 0)
@@ -2570,49 +2660,69 @@
 		)
 		(uuid "b6c4c728-11d3-431b-b244-35777fd77455")
 	)
-	(hierarchical_label "REF_SIG1"
-		(shape input)
-		(at 26.67 58.42 180)
+	(label "DC_GAIN"
+		(at 74.93 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "1ee24ed2-60e6-4ac8-b062-5c72110d4060")
+		(uuid "d6248f58-4353-4795-9413-4b7c20fd14ee")
 	)
-	(hierarchical_label "MUX1_OUT"
+	(label "REF_SIG1"
+		(at 74.93 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb0b1d10-72a4-4513-9c04-75822901d3e3")
+	)
+	(hierarchical_label "REF_SIG1_IN"
 		(shape input)
-		(at 24.13 44.45 0)
+		(at 86.36 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "3c2e9939-dbe5-4edd-831e-f4b35c3f41f0")
+		(uuid "0cce9c66-7083-4ee5-a291-fa87bde306ce")
 	)
-	(hierarchical_label "DC_GAIN"
+	(hierarchical_label "MUX1_OUT_IN"
 		(shape input)
-		(at 26.67 20.32 0)
+		(at 86.36 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c9bed92e-90c6-46ca-a320-42072a47ce0d")
+		(uuid "3570b945-b578-4bb7-ac10-5a51bddbfddb")
 	)
-	(hierarchical_label "DC_OFFSET"
+	(hierarchical_label "DC_OFFSET_IN"
 		(shape input)
-		(at 158.75 25.4 180)
+		(at 86.36 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "ffdc3f3a-169e-4411-b3ee-6fda9739f27d")
+		(uuid "57312b8c-97c0-47db-bb46-0b9f8128fd5e")
+	)
+	(hierarchical_label "DC_GAIN_IN"
+		(shape input)
+		(at 86.36 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b18a477-4c45-440b-8921-806675350e99")
 	)
 	(symbol
 		(lib_id "Device:R")

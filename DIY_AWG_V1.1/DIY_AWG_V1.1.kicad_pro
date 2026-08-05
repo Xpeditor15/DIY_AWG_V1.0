@@ -725,7 +725,7 @@
         "uuid": "508078af-d961-4af3-840e-a064a9f8d5bc"
       }
     ],
-    "used_designators": "FPC2,U16,R30-32,R41,#PWR149-159,#PWR179-181,C74-79,TP24-25",
+    "used_designators": "FPC3-4,#PWR182-193,#FLG1",
     "variants": []
   },
   "sheets": [
