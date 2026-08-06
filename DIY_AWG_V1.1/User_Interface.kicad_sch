@@ -5170,7 +5170,7 @@
 		)
 		(uuid "eb62229f-561b-4db8-bdc7-a6725ead4daa")
 	)
-	(hierarchical_label "ROW6_OUT"
+	(hierarchical_label "ROW6"
 		(shape output)
 		(at 196.85 128.27 0)
 		(effects
@@ -5181,7 +5181,7 @@
 		)
 		(uuid "17994845-9fb6-478c-be94-b7b17f791237")
 	)
-	(hierarchical_label "ENC1_B_OUT"
+	(hierarchical_label "ENC1_B"
 		(shape output)
 		(at 196.85 148.59 0)
 		(effects
@@ -5192,7 +5192,7 @@
 		)
 		(uuid "1d58e150-ae7f-4648-84a3-d232b8593f4e")
 	)
-	(hierarchical_label "COL1_IN"
+	(hierarchical_label "COL1"
 		(shape input)
 		(at 196.85 133.35 0)
 		(effects
@@ -5203,7 +5203,7 @@
 		)
 		(uuid "61b17fc3-d444-461c-9313-4aa74838df51")
 	)
-	(hierarchical_label "ROW5_OUT"
+	(hierarchical_label "ROW5"
 		(shape output)
 		(at 196.85 125.73 0)
 		(effects
@@ -5214,7 +5214,7 @@
 		)
 		(uuid "83d322d1-5653-42df-b800-18e03814727f")
 	)
-	(hierarchical_label "ROW7_OUT"
+	(hierarchical_label "ROW7"
 		(shape output)
 		(at 196.85 130.81 0)
 		(effects
@@ -5225,7 +5225,7 @@
 		)
 		(uuid "88ad99c6-86f8-418f-ba86-bf8b6038cd7f")
 	)
-	(hierarchical_label "ROW1_OUT"
+	(hierarchical_label "ROW1"
 		(shape output)
 		(at 196.85 115.57 0)
 		(effects
@@ -5236,7 +5236,7 @@
 		)
 		(uuid "8ae79721-e31d-444b-8400-c5654211032d")
 	)
-	(hierarchical_label "ENC1_SW_OUT"
+	(hierarchical_label "ENC1_SW"
 		(shape output)
 		(at 196.85 151.13 0)
 		(effects
@@ -5247,7 +5247,7 @@
 		)
 		(uuid "a5166ea6-57bc-48d8-aec3-c3e209482536")
 	)
-	(hierarchical_label "UART_RX4_OUT"
+	(hierarchical_label "UART_RX4"
 		(shape output)
 		(at 196.85 153.67 0)
 		(effects
@@ -5258,7 +5258,7 @@
 		)
 		(uuid "a5721acf-739c-4d84-8627-d2084c9e8ac5")
 	)
-	(hierarchical_label "ROW4_OUT"
+	(hierarchical_label "ROW4"
 		(shape output)
 		(at 196.85 123.19 0)
 		(effects
@@ -5269,7 +5269,7 @@
 		)
 		(uuid "afef8d0c-9d62-46da-9029-9dacc921190d")
 	)
-	(hierarchical_label "ROW2_OUT"
+	(hierarchical_label "ROW2"
 		(shape output)
 		(at 196.85 118.11 0)
 		(effects
@@ -5280,7 +5280,7 @@
 		)
 		(uuid "b1596997-0a0f-48ab-b053-77c5c5184d63")
 	)
-	(hierarchical_label "UART_TX4_IN"
+	(hierarchical_label "UART_TX4"
 		(shape input)
 		(at 196.85 113.03 0)
 		(effects
@@ -5291,7 +5291,7 @@
 		)
 		(uuid "b4958591-c7d7-4c8e-b2b6-f6df385b378e")
 	)
-	(hierarchical_label "ENC2_B_OUT"
+	(hierarchical_label "ENC2_B"
 		(shape output)
 		(at 196.85 143.51 0)
 		(effects
@@ -5302,7 +5302,7 @@
 		)
 		(uuid "b95fe261-a7cf-420b-b05a-2372d0bd7c85")
 	)
-	(hierarchical_label "COL2_IN"
+	(hierarchical_label "COL2"
 		(shape input)
 		(at 196.85 135.89 0)
 		(effects
@@ -5313,7 +5313,7 @@
 		)
 		(uuid "bf719a16-ddd4-4c89-ae90-2678ed8d2bb2")
 	)
-	(hierarchical_label "ROW3_OUT"
+	(hierarchical_label "ROW3"
 		(shape output)
 		(at 196.85 120.65 0)
 		(effects
@@ -5324,7 +5324,7 @@
 		)
 		(uuid "c469e51a-c074-49f0-be6d-dda4067dbf9b")
 	)
-	(hierarchical_label "COL3_IN"
+	(hierarchical_label "COL3"
 		(shape input)
 		(at 196.85 138.43 0)
 		(effects
@@ -5335,7 +5335,7 @@
 		)
 		(uuid "c589c55e-c294-4730-bc88-e4c53eee3a00")
 	)
-	(hierarchical_label "ENC1_A_OUT"
+	(hierarchical_label "ENC1_A"
 		(shape output)
 		(at 196.85 146.05 0)
 		(effects
@@ -5346,7 +5346,7 @@
 		)
 		(uuid "e8dc2f59-31fd-4403-b846-ad98e49febcc")
 	)
-	(hierarchical_label "ENC2_A_OUT"
+	(hierarchical_label "ENC2_A"
 		(shape output)
 		(at 196.85 140.97 0)
 		(effects
