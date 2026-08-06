@@ -3911,7 +3911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "easyeda2kicad:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
 			(at 60.96 138.1 0)
 			(hide yes)
 			(show_name no)
@@ -5318,7 +5318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X170-9N"
+		(property "Footprint" "easyeda2kicad:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL-EP"
 			(at 199.39 143.18 0)
 			(hide yes)
 			(show_name no)

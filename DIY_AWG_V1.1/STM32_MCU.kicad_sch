@@ -692,8 +692,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -17.78 69.85 0)
+			(property "Reference" "U10"
+				(at 3.302 -67.818 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -704,7 +704,7 @@
 				)
 			)
 			(property "Value" "STM32G473VETx"
-				(at 10.16 69.85 0)
+				(at 3.302 -70.358 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1055,7 +1055,7 @@
 					(alternate "TIM15_CH2" bidirectional line)
 					(alternate "TIM20_BKIN2" bidirectional line)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -22.86 53.34 0)
 					(length 5.08)
 					(name "PF0"
@@ -4060,8 +4060,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U9"
-				(at 0 -15.24 0)
+			(property "Reference" "U"
+				(at 0 16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4071,7 +4071,7 @@
 				)
 			)
 			(property "Value" "161N-4BVS11"
-				(at 0 -17.78 0)
+				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4180,8 +4180,6 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "161N-4BVS11_1_1"
 				(pin passive line
 					(at 1.27 11.43 270)
 					(length 2.54)
@@ -4218,7 +4216,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at -11.43 1.27 0)
 					(length 2.54)
 					(name "VBUS"
@@ -4290,7 +4288,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at -11.43 -8.89 0)
 					(length 2.54)
 					(name "SBU1"
@@ -4326,7 +4324,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 11.43 1.27 180)
 					(length 2.54)
 					(name "VBUS"
@@ -4398,7 +4396,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 11.43 -1.27 180)
 					(length 2.54)
 					(name "SBU2"
@@ -4534,7 +4532,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 29.21 0)
 					(length 2.54)
 					(name "1"
@@ -4552,7 +4550,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 26.67 0)
 					(length 2.54)
 					(name "2"
@@ -4570,7 +4568,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 24.13 0)
 					(length 2.54)
 					(name "3"
@@ -4588,7 +4586,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 21.59 0)
 					(length 2.54)
 					(name "4"
@@ -4606,7 +4604,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 19.05 0)
 					(length 2.54)
 					(name "5"
@@ -4624,7 +4622,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 16.51 0)
 					(length 2.54)
 					(name "6"
@@ -4642,7 +4640,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 13.97 0)
 					(length 2.54)
 					(name "7"
@@ -4660,7 +4658,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 11.43 0)
 					(length 2.54)
 					(name "8"
@@ -4678,7 +4676,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 8.89 0)
 					(length 2.54)
 					(name "9"
@@ -4696,7 +4694,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 6.35 0)
 					(length 2.54)
 					(name "10"
@@ -4714,7 +4712,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 3.81 0)
 					(length 2.54)
 					(name "11"
@@ -4732,7 +4730,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 1.27 0)
 					(length 2.54)
 					(name "12"
@@ -4750,7 +4748,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -1.27 0)
 					(length 2.54)
 					(name "13"
@@ -4768,7 +4766,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -3.81 0)
 					(length 2.54)
 					(name "14"
@@ -4786,7 +4784,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -6.35 0)
 					(length 2.54)
 					(name "15"
@@ -4804,7 +4802,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -8.89 0)
 					(length 2.54)
 					(name "16"
@@ -4822,7 +4820,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -11.43 0)
 					(length 2.54)
 					(name "17"
@@ -4840,7 +4838,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -13.97 0)
 					(length 2.54)
 					(name "18"
@@ -4858,7 +4856,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -16.51 0)
 					(length 2.54)
 					(name "19"
@@ -4876,7 +4874,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -19.05 0)
 					(length 2.54)
 					(name "20"
@@ -4894,7 +4892,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -21.59 0)
 					(length 2.54)
 					(name "21"
@@ -4912,7 +4910,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -24.13 0)
 					(length 2.54)
 					(name "22"
@@ -4930,7 +4928,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -26.67 0)
 					(length 2.54)
 					(name "23"
@@ -4948,7 +4946,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -29.21 0)
 					(length 2.54)
 					(name "24"
@@ -4966,7 +4964,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 3.81 -34.29 90)
 					(length 2.54)
 					(name "25"
@@ -4984,7 +4982,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 3.81 34.29 270)
 					(length 2.54)
 					(name "26"
@@ -5011,8 +5009,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "X1"
-				(at 0 8.89 0)
+			(property "Reference" "X"
+				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5022,7 +5020,7 @@
 				)
 			)
 			(property "Value" "SX2M8.000B10F20TNN"
-				(at 0 6.35 0)
+				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5120,8 +5118,6 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "SX2M8.000B10F20TNN_1_1"
 				(pin passive line
 					(at -17.78 1.27 0)
 					(length 2.54)
@@ -5158,7 +5154,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin output line
 					(at 17.78 -1.27 180)
 					(length 2.54)
 					(name "Output"
@@ -5203,26 +5199,24 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FPC1"
-				(at 6.35 1.2701 0)
+			(property "Reference" "FPC"
+				(at 0 21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "XW1020012-100R-002"
-				(at 6.35 -1.2699 0)
+				(at 0 -21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "easyeda2kicad:FPC-SMD_10P-P1.00_XW1020012-100R-001"
@@ -5314,8 +5308,6 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "XW1020012-100R-002_1_1"
 				(pin passive line
 					(at -5.08 11.43 0)
 					(length 2.54)
