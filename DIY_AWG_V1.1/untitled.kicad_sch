@@ -1396,7 +1396,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at -20.32 3.81 0)
 					(length 2.54)
 					(name "OUT"
@@ -1414,7 +1414,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -20.32 1.27 0)
 					(length 2.54)
 					(name "NC"
@@ -1432,7 +1432,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -20.32 -1.27 0)
 					(length 2.54)
 					(name "FB"
@@ -1450,7 +1450,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -20.32 -3.81 0)
 					(length 2.54)
 					(name "NC"
@@ -1468,7 +1468,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -20.32 -6.35 0)
 					(length 2.54)
 					(name "NC"
@@ -1486,7 +1486,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -5.08 -16.51 90)
 					(length 2.54)
 					(name "NC"
@@ -1504,7 +1504,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -2.54 -16.51 90)
 					(length 2.54)
 					(name "GND"
@@ -1522,7 +1522,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 0 -16.51 90)
 					(length 2.54)
 					(name "NC"
@@ -1540,7 +1540,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 2.54 -16.51 90)
 					(length 2.54)
 					(name "NC"
@@ -1558,7 +1558,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 5.08 -16.51 90)
 					(length 2.54)
 					(name "NC"
@@ -1576,7 +1576,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 20.32 -6.35 180)
 					(length 2.54)
 					(name "NC"
@@ -1594,7 +1594,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 20.32 -3.81 180)
 					(length 2.54)
 					(name "NC"
@@ -1612,7 +1612,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 20.32 -1.27 180)
 					(length 2.54)
 					(name "EN"
@@ -1630,7 +1630,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 20.32 1.27 180)
 					(length 2.54)
 					(name "NR/SS"
@@ -1648,7 +1648,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 20.32 3.81 180)
 					(length 2.54)
 					(name "IN"
@@ -1666,7 +1666,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 13.97 270)
 					(length 2.54)
 					(name "IN"
@@ -1684,7 +1684,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 2.54 13.97 270)
 					(length 2.54)
 					(name "NC"
@@ -1702,7 +1702,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 0 13.97 270)
 					(length 2.54)
 					(name "NC"
@@ -1720,7 +1720,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -2.54 13.97 270)
 					(length 2.54)
 					(name "NC"
@@ -1738,7 +1738,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 13.97 270)
 					(length 2.54)
 					(name "OUT"
@@ -1756,7 +1756,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -10.16 16.51 270)
 					(length 5.08)
 					(name "EPAD"
@@ -1903,7 +1903,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at -17.78 3.81 0)
 					(length 2.54)
 					(name "OUT"
@@ -1921,7 +1921,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -17.78 1.27 0)
 					(length 2.54)
 					(name "NC"
@@ -1939,7 +1939,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -17.78 -1.27 0)
 					(length 2.54)
 					(name "SENSE/FB"
@@ -1957,7 +1957,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -17.78 -3.81 0)
 					(length 2.54)
 					(name "6P4V2"
@@ -1975,7 +1975,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -17.78 -6.35 0)
 					(length 2.54)
 					(name "6P4V1"
@@ -1993,7 +1993,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -19.05 90)
 					(length 2.54)
 					(name "3P2V"
@@ -2011,7 +2011,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -2.54 -19.05 90)
 					(length 2.54)
 					(name "GND"
@@ -2029,7 +2029,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -19.05 90)
 					(length 2.54)
 					(name "1P6V"
@@ -2047,7 +2047,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 2.54 -19.05 90)
 					(length 2.54)
 					(name "0P8V"
@@ -2065,7 +2065,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 -19.05 90)
 					(length 2.54)
 					(name "0P4V"
@@ -2083,7 +2083,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 17.78 -6.35 180)
 					(length 2.54)
 					(name "0P2V"
@@ -2101,7 +2101,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 17.78 -3.81 180)
 					(length 2.54)
 					(name "0P1V"
@@ -2119,7 +2119,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 17.78 -1.27 180)
 					(length 2.54)
 					(name "EN"
@@ -2137,7 +2137,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 17.78 1.27 180)
 					(length 2.54)
 					(name "NR"
@@ -2155,7 +2155,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 17.78 3.81 180)
 					(length 2.54)
 					(name "IN"
@@ -2173,7 +2173,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 16.51 270)
 					(length 2.54)
 					(name "IN"
@@ -2191,7 +2191,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 2.54 16.51 270)
 					(length 2.54)
 					(name "NC"
@@ -2209,7 +2209,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 0 16.51 270)
 					(length 2.54)
 					(name "NC"
@@ -2227,7 +2227,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at -2.54 16.51 270)
 					(length 2.54)
 					(name "NC"
@@ -2245,7 +2245,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 16.51 270)
 					(length 2.54)
 					(name "OUT"
@@ -2263,7 +2263,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -10.16 19.05 270)
 					(length 5.08)
 					(name "EPAD"
@@ -3028,17 +3028,7 @@
 		)
 		(uuid "a6911eb0-ab79-463e-bd55-7a8e34f34ad1")
 	)
-	(text "TAJB226K016RNJ"
-		(exclude_from_sim no)
-		(at 23.876 57.404 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0761bdc9-916e-48fc-9be0-0cdee5e03376")
-	)
-	(text "4.7nF MLCC (2): 04023C472KAT2A (2)\n2.2uF MLCC (4): CL21B335KAFNFNE (4)\n10uF MLCC (4): CL10A106MO8NQNC (4)\n22uF MLCC (12): GRM31CR61C226KE15L (12)\n\n22uF Tantalum Cap (2): TAJB226K016RNJ (2)\n22uF Polymer Tantalum Cap (4): T55B226M016C0070 (4)\n\n1.5uH Inductor (2): CMLO252010F1R5MTT (2)\n0.47uH Inductor (2): MNR252010TR47NT (2)\n0.33uH Inductor (2): CMLO252010FR33MTT (2)\n\n400m Resistor (6): PE0805FRF070R4L (10)\n162k Resistor (2): PTFR0603D162KP9 (2)\n21.5k Resistor (1): ARG03DTC2152 (1)\n49.9k Resistor (1): ERA-3AED4992V (1)"
+	(text "4.7nF MLCC (2): 04023C472KAT2A (2)\n2.2uF MLCC (4): CL21B335KAFNFNE (4)\n10uF MLCC (4): CL10A106MO8NQNC (4)\n22uF MLCC (12): GRM31CR61C226KE15L (12)\n\n22uF Tantalum Cap (2): TAJB226K016RNJ (2)\n22uF Polymer Tantalum Cap (4): T55B226M016C0070 (4)\n\n1.5uH Inductor (2): CMLO252010F1R5MTT (2)\n0.47uH Inductor (2): MNR252010TR47NT (2)\n0.33uH Inductor (2): CMLO252010FR33MTT (2)\n\n400m Resistor (6): PE0805FRF070R4L (6)\n162k Resistor (2): PTFR0603D162KP9 (2)\n21.5k Resistor (1): ARG03DTC2152 (1)\n49.9k Resistor (1): ERA-3AED4992V (1)"
 		(exclude_from_sim no)
 		(at 103.124 37.338 0)
 		(effects
@@ -3069,26 +3059,6 @@
 		)
 		(uuid "44e7613e-3ae3-439c-a1e9-4a09f73c15cf")
 	)
-	(text "TAJB226K016RNJ"
-		(exclude_from_sim no)
-		(at 68.326 58.166 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4c63898e-c510-410b-996c-9fde9c6bfc21")
-	)
-	(text "CMLO252010F1R5MTT"
-		(exclude_from_sim no)
-		(at 36.576 137.668 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "54f2a0fe-a9e0-4862-b220-f3e5fade5951")
-	)
 	(text "Place GRM31CR61C226KE15L & \nT55B226M016C0070 in parallel"
 		(exclude_from_sim no)
 		(at 126.746 228.092 0)
@@ -3111,7 +3081,7 @@
 	)
 	(text "Place 2 GRM31CR61C226KE15L in parallel\n(eff. cap - 10uF)"
 		(exclude_from_sim no)
-		(at 40.64 201.422 0)
+		(at 43.18 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3121,7 +3091,7 @@
 	)
 	(text "Place GRM31CR61C226KE15L & \nT55B226M016C0070 in parallel"
 		(exclude_from_sim no)
-		(at 136.652 201.93 0)
+		(at 135.89 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3149,16 +3119,6 @@
 		)
 		(uuid "7baa991b-cb55-46c3-82d8-e97c0fec7cf0")
 	)
-	(text "CMLO252010F1R5MTT"
-		(exclude_from_sim no)
-		(at 28.956 91.948 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "81db76c2-d43c-4beb-8504-3199d1ad0ae6")
-	)
 	(text "5V from Buck Converter\n"
 		(exclude_from_sim no)
 		(at 35.306 119.888 0)
@@ -3181,7 +3141,7 @@
 	)
 	(text "VDD for ADG704, TLV3544 (Using ADP7118 1)\n\n"
 		(exclude_from_sim no)
-		(at 33.02 71.628 0)
+		(at 38.1 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3288,16 +3248,6 @@
 			)
 		)
 		(uuid "bb1767f7-c925-4096-bab7-3248ab1b9bc9")
-	)
-	(text "MNR252010TR47NT"
-		(exclude_from_sim no)
-		(at 38.862 185.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cc4efc9c-0d3f-4ef8-923e-afc4066509ba")
 	)
 	(text "-VDDA for THS3091 (Using TPS7A3301RGWR 1)"
 		(exclude_from_sim no)
@@ -3412,6 +3362,12 @@
 		(uuid "21416683-5497-477c-a8b5-28201d7fb945")
 	)
 	(junction
+		(at 77.47 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "292dff45-310b-469b-a226-98b6fefe397e")
+	)
+	(junction
 		(at 269.24 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3524,12 +3480,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e9ba4e3-6add-4308-abf2-2d4ee66401b6")
-	)
-	(junction
-		(at 77.47 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70e098b1-8ec7-4fed-b633-d81169a7464d")
 	)
 	(junction
 		(at 48.26 88.9)
@@ -6377,7 +6327,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 58.42) (xy 77.47 60.96)
+			(xy 77.47 59.69) (xy 77.47 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6657,7 +6607,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 48.26) (xy 77.47 50.8)
+			(xy 77.47 48.26) (xy 77.47 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6717,7 +6667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02c5b52f-5888-4746-811c-a05988f0f725")
-		(property "Reference" "#FLG017"
+		(property "Reference" "#FLG01"
 			(at 22.225 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -6778,7 +6728,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#FLG017")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -6817,7 +6767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 67.0052 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -6828,7 +6778,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C16194987.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=FgQNVlFSRFMLU1UARQdcUwACFgdYAlBSFgAIBlRfFQQxVlNRT1RcVVJUQlBdVztW"
 			(at 66.04 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -6840,6 +6790,27 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 66.04 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Name" "CL21B335KAFNFNE"
+			(at 73.66 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" "C16194987"
 			(at 66.04 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -6876,7 +6847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "091b22ac-2747-4678-a616-fb45572067d6")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR028"
 			(at 97.79 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -6937,7 +6908,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR032")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6954,7 +6925,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "095e0db0-00c6-4c3b-9de0-102a98c6e123")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 100.33 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -7015,7 +6986,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7114,7 +7085,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ce887c8-ed24-4e02-92a0-b94ceba38ba7")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 55.88 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -7175,7 +7146,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7192,7 +7163,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f158326-373c-4516-803c-3b56a0aadefb")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 119.38 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -7253,7 +7224,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7434,7 +7405,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "149f52c1-3136-42ba-a410-7ef0bd33f53d")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 104.14 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7495,7 +7466,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -7512,7 +7483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "164681e5-c280-4292-9127-b0e95ce9762b")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 31.75 219.964 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7574,7 +7545,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7691,7 +7662,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 30.48 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7702,7 +7673,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C438917.pdf"
 			(at 30.48 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7715,6 +7686,27 @@
 		)
 		(property "Description" "Inductor"
 			(at 30.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Name" "CMLO252010F1R5MTT"
+			(at 30.48 90.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" "C438917"
+			(at 30.48 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7989,87 +7981,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 107.95 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1d186712-00b2-498c-b3ae-5d9dc390d6a7")
-		(property "Reference" "C14"
-			(at 110.49 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 110.49 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 108.9152 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 107.95 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bf57ffc0-5ca2-489e-b654-a4a1711430f6")
-		)
-		(pin "1"
-			(uuid "93828517-7cbe-4305-a3b1-c2f421e535fa")
-		)
-		(instances
-			(project "DIY_AWG_V1.1"
-				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 92.71 207.01 0)
 		(unit 1)
@@ -8080,7 +7991,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f8f3437-43ec-4b92-873f-ec49c3662acc")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 92.71 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -8141,7 +8052,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8159,7 +8070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "228e12f5-d5c4-4c81-8bba-bb7dda35c47a")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG07"
 			(at 49.53 180.975 0)
 			(hide yes)
 			(show_name no)
@@ -8219,7 +8130,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#FLG06")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -8417,6 +8328,109 @@
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 55.88 189.23 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "23d68611-db62-43d6-b00f-b0c3b5f9034a")
+		(property "Reference" "C9"
+			(at 62.23 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 62.23 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 54.9148 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77088.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=EVldUV1eRAJaUwYHFAdaVVJVQFRYUFFWFAdfXgVUElQxVlNeQlNWXlZRRVVYUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRFBXUFRXWQkaCgg%3D"
+			(at 55.88 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 55.88 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Name" "GRM31CR61C226KE15L"
+			(at 50.8 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" "C77088"
+			(at 55.88 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6798a583-a74a-462e-9379-e1af87d945e7")
+		)
+		(pin "1"
+			(uuid "2b107b33-8e9f-4ea5-9e31-e44e28df84f1")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8681,7 +8695,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2823e1d2-d5cb-496c-ab99-32b05ce522f9")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 133.35 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -8742,7 +8756,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -8759,7 +8773,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28b779e9-22da-4d93-806b-3865d50e39ce")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 136.144 187.706 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8781,7 +8795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:CAP-SMD_L3.5-W2.8-FD"
 			(at 134.3152 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -8792,7 +8806,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2158234.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.3.xh&lcsc_vid=T1JWBF0CFlNaA1FXFVFYXgVRE1FXAldRRlNWA1IDQQQxVlNRTlJZX1RRR1ZYXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktfQ1BADxALGw%3D%3D"
 			(at 133.35 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -8814,6 +8828,27 @@
 				)
 			)
 		)
+		(property "Component Name" "T55B106M016C0100"
+			(at 144.78 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" "C2158234"
+			(at 133.35 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b7159b55-e1ce-4344-a3a2-b5f434504ee6")
 		)
@@ -8823,7 +8858,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -8918,7 +8953,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b54b203-653d-4699-add2-6f0da7f3c81c")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR025"
 			(at 87.63 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -8979,7 +9014,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR028")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9066,6 +9101,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 107.95 139.7 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e38f83e-173c-4513-82d0-cc1cbac025e2")
+		(property "Reference" "C14"
+			(at 105.41 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 105.41 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 106.9848 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C92487.pdf?spm=wm.sxq.inf.ggs___wm.gwc.xh.38.cbm&lcsc_vid=FgQNVlFSRFMLU1UARQdcUwACFgdYAlBSFgAIBlRfFQQxVlNRT1RcVVJUQlBdVztW"
+			(at 107.95 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 107.95 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Name" "CL10A106MO8NQNC"
+			(at 118.11 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" "C92487"
+			(at 107.95 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "60fc6b67-36b9-46ac-8826-5cc7dd14ac46")
+		)
+		(pin "1"
+			(uuid "4cf65ba1-d0a9-4c53-8919-e9d77f308f93")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 35.56 57.15 0)
 		(unit 1)
@@ -9098,7 +9236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:CASE-B_3528"
 			(at 36.5252 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -9131,6 +9269,27 @@
 				)
 			)
 		)
+		(property "Component Name" "TAJB226K016RNJ"
+			(at 24.13 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID:" "C8020"
+			(at 35.56 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "94b09086-5965-4b70-8c7a-4ee3f986cfd3")
 		)
@@ -9147,87 +9306,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 48.26 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2f170b28-c65f-4ef0-96a1-59efdcaa2117")
-		(property "Reference" "C4"
-			(at 50.8 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 50.8 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.2252 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 48.26 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4e41971c-9c7c-44e2-9d55-3a49a26f477f")
-		)
-		(pin "1"
-			(uuid "05a51573-37d5-4705-a387-cdf4c09da0db")
-		)
-		(instances
-			(project "DIY_AWG_V1.1"
-				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 123.19 195.58 0)
 		(unit 1)
@@ -9238,7 +9316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3077b22f-5cb2-4318-9eec-69306aa772da")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 123.19 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -9299,7 +9377,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9316,7 +9394,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31b056a4-757e-4832-8034-27f95c619569")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR014"
 			(at 48.26 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9377,7 +9455,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR011")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9536,88 +9614,6 @@
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 57.15 148.59 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "352e8979-b682-44d6-a346-722ae3040830")
-		(property "Reference" "C7"
-			(at 54.61 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7n"
-			(at 54.61 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 56.1848 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 57.15 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e8e0ef68-abaf-428c-92cf-6775ee8910e0")
-		)
-		(pin "1"
-			(uuid "fea43291-75a3-4fad-a318-81bd2b473bd2")
-		)
-		(instances
-			(project "DIY_AWG_V1.1"
-				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9945,6 +9941,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 100.33 93.98 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ecfae8f-5734-47f1-900e-c68439afd297")
+		(property "Reference" "C13"
+			(at 97.79 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 97.79 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 99.3648 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C92487.pdf?spm=wm.sxq.inf.ggs___wm.gwc.xh.38.cbm&lcsc_vid=FgQNVlFSRFMLU1UARQdcUwACFgdYAlBSFgAIBlRfFQQxVlNRT1RcVVJUQlBdVztW"
+			(at 100.33 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Name" "CL10A106MO8NQNC"
+			(at 110.49 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" "C92487"
+			(at 100.33 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e5f08c46-5167-48cc-890b-162225ef92bb")
+		)
+		(pin "1"
+			(uuid "8f50c2ec-632d-428b-9692-f915c9aedbf0")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VA")
 		(at 115.57 134.62 270)
 		(unit 1)
@@ -9955,7 +10054,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f88511d-559f-4d44-a1bc-643ea256a1c5")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 111.76 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10016,7 +10115,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -10033,7 +10132,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ff0d787-13d7-4c36-87aa-dacb4cc807e7")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 57.658 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10097,7 +10196,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10183,6 +10282,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 38.1 127 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42f4f3bd-f4d8-48c7-ad09-98af707242b7")
+		(property "Reference" "R3"
+			(at 31.75 122.174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "400m"
+			(at 31.75 124.714 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 38.1 128.778 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7261230.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=T1kPVFJSRVFcUgZTQlJZV1NeE1FYAwVXFFMPUQEFEgMxVlNeQlBdVFNXQ1laVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
+			(at 38.1 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 38.1 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Name" "PE0805FRF070R4L"
+			(at 43.18 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" "C7261230"
+			(at 38.1 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b48c6a2-04ae-43a9-bd66-c9d5db50edbf")
+		)
+		(pin "2"
+			(uuid "023b78bb-1bb4-4bc4-9150-895ab12306d0")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 45.72 246.38 0)
 		(mirror y)
@@ -10194,7 +10393,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43068f9c-814d-482e-94f9-bdee49927e30")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR013"
 			(at 45.72 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -10255,7 +10454,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10263,7 +10462,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 60.96 0)
+		(at 77.47 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10274,7 +10473,7 @@
 		(fields_autoplaced yes)
 		(uuid "44d81d4d-e382-4ba0-a9fc-648e7576b513")
 		(property "Reference" "#PWR022"
-			(at 77.47 67.31 0)
+			(at 77.47 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10285,7 +10484,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 66.04 0)
+			(at 77.47 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10296,7 +10495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 60.96 0)
+			(at 77.47 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10307,7 +10506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 60.96 0)
+			(at 77.47 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10318,7 +10517,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 60.96 0)
+			(at 77.47 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10351,7 +10550,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4665e29f-c2d0-45d8-b273-3af3c0cb5d02")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR034"
 			(at 110.49 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -10412,7 +10611,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10642,7 +10841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4807b52a-3381-40d7-ba8e-515e1be2aff7")
-		(property "Reference" "#FLG018"
+		(property "Reference" "#FLG03"
 			(at 33.655 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10703,7 +10902,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#FLG018")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -10877,7 +11076,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ee35446-e9c6-4c83-baf0-ad2333971326")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 243.84 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -10938,7 +11137,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -11018,6 +11217,106 @@
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
 					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 38.1 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5384c06f-d883-406a-a804-0b0919abb70a")
+		(property "Reference" "L3"
+			(at 38.1 130.302 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5u"
+			(at 38.1 132.842 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 38.1 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C438917.pdf"
+			(at 38.1 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 38.1 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Name" "CMLO252010F1R5MTT"
+			(at 38.1 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" "C438917"
+			(at 38.1 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16b0073e-57d2-4d03-9db4-82a308891c6b")
+		)
+		(pin "2"
+			(uuid "e99e6ecf-cd81-48a5-9e25-c94a5b1b33dd")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -11509,7 +11808,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b6acbd4-d45e-484c-a6c3-8093ae073dba")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR052"
 			(at 243.84 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -11570,7 +11869,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR053")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -11816,6 +12115,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 48.26 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5e5a16bd-0f75-45e7-8a81-20557bbec733")
+		(property "Reference" "C5"
+			(at 50.8 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 50.8 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 49.2252 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C92487.pdf?spm=wm.sxq.inf.ggs___wm.gwc.xh.38.cbm&lcsc_vid=FgQNVlFSRFMLU1UARQdcUwACFgdYAlBSFgAIBlRfFQQxVlNRT1RcVVJUQlBdVztW"
+			(at 48.26 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 48.26 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Name" "CL10A106MO8NQNC"
+			(at 35.56 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" "C92487"
+			(at 48.26 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c20e6e7a-2c14-4903-aa12-a8ed41634f54")
+		)
+		(pin "1"
+			(uuid "3297df8c-8157-4edd-b2b3-ac7f041f55cf")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+VSW")
 		(at 29.21 50.8 90)
 		(unit 1)
@@ -11904,7 +12305,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61ca45d4-837f-4519-856a-5f5224663b0d")
-		(property "Reference" "#FLG011"
+		(property "Reference" "#FLG08"
 			(at 173.355 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11965,7 +12366,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#FLG011")
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -12272,7 +12673,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69de44ce-3e7f-4d49-be35-2b3a8514f47d")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR016"
 			(at 49.53 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -12333,7 +12734,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR018")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12507,7 +12908,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71a75fab-e93d-4d7c-858a-fa88226d37ec")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 21.59 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -12567,7 +12968,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -12835,7 +13236,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7957c8b1-f9a7-4984-95ff-0a12a80f645a")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 54.61 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -12896,7 +13297,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -12995,7 +13396,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c8ff786-d571-441c-858d-19680cc41fe0")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 130.81 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -13056,7 +13457,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -13308,7 +13709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "814b4b8b-b317-4737-96a7-4ff62287b54d")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG06"
 			(at 48.26 132.715 0)
 			(hide yes)
 			(show_name no)
@@ -13368,7 +13769,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#FLG05")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -13454,85 +13855,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 38.1 134.62 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "83f15c2c-cd8e-4171-958f-ee43950e5bb9")
-		(property "Reference" "L2"
-			(at 38.1 130.302 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.5u"
-			(at 38.1 132.842 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 38.1 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d1b4710-7bed-497f-952a-587380af3c90")
-		)
-		(pin "2"
-			(uuid "e0cb3cda-64a6-49ec-94b7-313d7e93a8ac")
-		)
-		(instances
-			(project "DIY_AWG_V1.1"
-				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 49.53 109.22 0)
 		(unit 1)
@@ -13543,7 +13865,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86900d63-9d4f-4e32-ad92-5a19fc385425")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 49.53 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -13604,7 +13926,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR016")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -13784,7 +14106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bd99d2c-f27d-4d55-86e1-59945b7cfeb9")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG05"
 			(at 45.72 230.505 0)
 			(hide yes)
 			(show_name no)
@@ -13844,7 +14166,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#FLG07")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -14101,7 +14423,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a4133a9a-2968-4e84-a42f-e451737b1182")
 		(property "Reference" "#PWR02"
 			(at 20.32 90.17 0)
@@ -14115,7 +14436,7 @@
 			)
 		)
 		(property "Value" "+VSW5V0"
-			(at 20.32 81.28 0)
+			(at 20.32 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14180,7 +14501,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4491e3f-2602-47a4-806a-626eab16dd22")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR031"
 			(at 101.6 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -14241,7 +14562,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR026")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -14488,7 +14809,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 77.47 54.61 0)
+		(at 77.47 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14498,7 +14819,7 @@
 		(dnp no)
 		(uuid "aab1a32f-10f5-4f57-94cc-b46d0309b204")
 		(property "Reference" "C12"
-			(at 80.264 53.086 0)
+			(at 80.264 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14509,7 +14830,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 80.264 55.626 0)
+			(at 80.264 56.896 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14519,8 +14840,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 78.4352 58.42 0)
+		(property "Footprint" "easyeda2kicad:CASE-B_3528"
+			(at 78.4352 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14531,7 +14852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 54.61 0)
+			(at 77.47 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14542,7 +14863,28 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 77.47 54.61 0)
+			(at 77.47 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" "TAJB226K016RNJ"
+			(at 67.31 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" "C8020"
+			(at 77.47 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14562,6 +14904,109 @@
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 57.15 148.59 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab95ea70-a43c-4c52-bdbc-f5de79cb230b")
+		(property "Reference" "C10"
+			(at 54.61 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7n"
+			(at 54.61 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 56.1848 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
+			(at 57.15 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 57.15 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Name" "04023C472KAT2A"
+			(at 68.58 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" ""
+			(at 57.15 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a67fe3c4-8778-4c6e-afb5-59270a044407")
+		)
+		(pin "1"
+			(uuid "746cca1b-db2a-4b4b-8ae1-7047131d389d")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -14658,7 +15103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac9bd583-b260-412a-898e-755705ce72ee")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 27.94 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -14718,7 +15163,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -14736,7 +15181,7 @@
 		(dnp no)
 		(uuid "ad100916-ef80-4d45-b70a-b4e90ecd9223")
 		(property "Reference" "R1"
-			(at 30.48 76.454 90)
+			(at 24.13 76.454 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14746,7 +15191,7 @@
 			)
 		)
 		(property "Value" "400m"
-			(at 30.48 78.994 90)
+			(at 24.13 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14755,7 +15200,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 30.48 83.058 90)
 			(hide yes)
 			(show_name no)
@@ -14766,7 +15211,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7261230.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=T1kPVFJSRVFcUgZTQlJZV1NeE1FYAwVXFFMPUQEFEgMxVlNeQlBdVFNXQ1laVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
 			(at 30.48 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -14788,6 +15233,27 @@
 				)
 			)
 		)
+		(property "Component Name" "PE0805FRF070R4L"
+			(at 35.56 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" "C7261230"
+			(at 30.48 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f7d46432-5d91-48d1-80d3-ccf9817e4b2a")
 		)
@@ -14798,87 +15264,6 @@
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 100.33 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ad78550b-4591-4cb0-bf9f-2a75b7a69df1")
-		(property "Reference" "C13"
-			(at 102.87 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 102.87 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.2952 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 100.33 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "edfdd800-d373-4b8f-9f86-c145827f1b8e")
-		)
-		(pin "1"
-			(uuid "f941075c-d468-4cfc-94c8-461f4ad73fe1")
-		)
-		(instances
-			(project "DIY_AWG_V1.1"
-				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -14976,7 +15361,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b43596a6-c556-4fb3-b3d8-516a0615c69f")
-		(property "Reference" "C18"
+		(property "Reference" "C17"
 			(at 133.858 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15040,7 +15425,110 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "C18")
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 123.19 189.23 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5f2ddde-1291-4696-8e28-82b0c2f3a411")
+		(property "Reference" "C16"
+			(at 129.54 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 129.54 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 122.2248 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77088.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=EVldUV1eRAJaUwYHFAdaVVJVQFRYUFFWFAdfXgVUElQxVlNeQlNWXlZRRVVYUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRFBXUFRXWQkaCgg%3D"
+			(at 123.19 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Name" "GRM31CR61C226KE15L"
+			(at 124.46 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" "C77088"
+			(at 123.19 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7413aadf-dd1b-4e5a-9667-4f90b327ab0a")
+		)
+		(pin "1"
+			(uuid "156aad6e-8367-4ac7-842a-60810e0afdfb")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -15058,7 +15546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b73fd872-f48d-4cda-abd7-1857f05e3e83")
-		(property "Reference" "L3"
+		(property "Reference" "L2"
 			(at 31.75 227.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15120,88 +15608,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 55.88 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b7795325-87e5-4e84-b4a7-dbe975af97c6")
-		(property "Reference" "C10"
-			(at 58.674 187.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 58.674 190.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 56.8452 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 55.88 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2a45ca6e-9050-4d5c-b7ec-6f7dfa3bc79f")
-		)
-		(pin "1"
-			(uuid "999cdf35-a67b-4b21-b8a7-27df45d00cd5")
-		)
-		(instances
-			(project "DIY_AWG_V1.1"
-				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "C10")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -15286,8 +15693,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 123.19 189.23 0)
+		(lib_id "Device:R")
+		(at 39.37 173.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15295,31 +15702,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ba3bce41-1f41-4058-b485-87debacfb9e0")
-		(property "Reference" "C16"
-			(at 126.238 187.96 0)
+		(uuid "babeee8f-3fa0-434c-b49f-bcd3b54a348f")
+		(property "Reference" "R4"
+			(at 33.02 169.164 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "22u"
-			(at 126.238 190.5 0)
+		(property "Value" "400m"
+			(at 33.02 171.704 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 124.1552 193.04 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 39.37 175.768 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15329,8 +15734,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 123.19 189.23 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7261230.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=T1kPVFJSRVFcUgZTQlJZV1NeE1FYAwVXFFMPUQEFEgMxVlNeQlBdVFNXQ1laVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlVcSQwSGg0%3D"
+			(at 39.37 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15340,8 +15745,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 123.19 189.23 0)
+		(property "Description" "Resistor"
+			(at 39.37 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15351,16 +15756,37 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "a6e6e86c-1c10-405a-92f1-04c64ec7f2e2")
+		(property "Component Name" "PE0805FRF070R4L"
+			(at 44.45 170.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" "C7261230"
+			(at 39.37 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "b497e4b2-0afe-4f3f-9c80-6b175f25ec99")
+			(uuid "f565401f-3b07-456d-a0f8-a25090906e59")
+		)
+		(pin "2"
+			(uuid "90bdfe5a-02d6-43e3-8686-16ed8a973e1f")
 		)
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "C16")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -15378,7 +15804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc7e7c3f-8d47-463b-9ec1-499516bd63dc")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG04"
 			(at 40.64 86.995 0)
 			(hide yes)
 			(show_name no)
@@ -15438,7 +15864,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#FLG03")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -15612,7 +16038,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4d9301f-fa5b-4f7a-9c20-93174d3fc481")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 93.98 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -15673,7 +16099,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -15846,7 +16272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c74ea642-cadd-405d-9daa-c89f02e1f409")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR017"
 			(at 53.34 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -15907,7 +16333,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -15946,7 +16372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 41.6052 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -15957,7 +16383,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C92487.pdf?spm=wm.sxq.inf.ggs___wm.gwc.xh.38.cbm&lcsc_vid=FgQNVlFSRFMLU1UARQdcUwACFgdYAlBSFgAIBlRfFQQxVlNRT1RcVVJUQlBdVztW"
 			(at 40.64 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -15969,6 +16395,27 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 40.64 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Name" "CL10A106MO8NQNC"
+			(at 27.94 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" "C92487"
 			(at 40.64 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -16067,85 +16514,6 @@
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 39.37 173.99 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d15efa6c-f29b-416c-937e-47e51f56003a")
-		(property "Reference" "R4"
-			(at 39.37 169.164 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "400m"
-			(at 39.37 171.704 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 175.768 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 39.37 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c15d5da3-2542-444d-948b-c6f1901b856f")
-		)
-		(pin "2"
-			(uuid "fede9f9e-1093-4f29-b643-fcafe75491f7")
-		)
-		(instances
-			(project "DIY_AWG_V1.1"
-				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -16321,7 +16689,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d82d67f9-af81-45a4-83ed-aeea8c4e490d")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 45.72 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -16382,7 +16750,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -16556,7 +16924,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1cf238e-5536-45fe-9edd-ded76c0cb8b3")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR033"
 			(at 107.95 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -16617,7 +16985,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR030")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -16884,7 +17252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6df6332-afcf-4394-8457-c544ed9cdd8f")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 43.18 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -16945,86 +17313,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 38.1 127 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e97399bd-8fd4-40dc-acf1-2018b49626ee")
-		(property "Reference" "R2"
-			(at 38.1 122.174 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "400m"
-			(at 38.1 124.714 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 128.778 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 38.1 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0a03527e-46ed-447d-a8c3-46d2791bd142")
-		)
-		(pin "2"
-			(uuid "8d021982-3d85-4505-b481-dcc4de45b647")
-		)
-		(instances
-			(project "DIY_AWG_V1.1"
-				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "R2")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -17276,7 +17565,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f19ee2ea-ed59-4cce-ace4-985d054e09d6")
 		(property "Reference" "L4"
 			(at 39.37 177.8 90)
@@ -17298,7 +17586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 39.37 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -17309,7 +17597,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C18221969.pdf"
 			(at 39.37 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -17322,6 +17610,27 @@
 		)
 		(property "Description" "Inductor"
 			(at 39.37 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Name" "MNR252010TR47NT"
+			(at 39.37 185.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" "C18221969"
+			(at 39.37 182.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17357,7 +17666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3a7ede5-ceef-4146-8025-872932354859")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR020"
 			(at 57.15 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -17418,7 +17727,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "#PWR017")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -17435,7 +17744,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f60a2abb-64e0-4aeb-a2de-420780d265c5")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 48.514 237.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17499,7 +17808,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -17621,7 +17930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 48.5648 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -17632,7 +17941,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 49.53 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -17644,6 +17953,27 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 49.53 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Name" "04023C472KAT2A"
+			(at 60.96 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" ""
 			(at 49.53 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -17759,7 +18089,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fed67caf-bc84-42c3-bcc9-e83520e4e37f")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 46.736 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17781,7 +18111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 48.5648 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -17792,7 +18122,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C77088.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=EVldUV1eRAJaUwYHFAdaVVJVQFRYUFFWFAdfXgVUElQxVlNeQlNWXlZRRVVYUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRFBXUFRXWQkaCgg%3D"
 			(at 49.53 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -17814,6 +18144,27 @@
 				)
 			)
 		)
+		(property "Component Name" "GRM31CR61C226KE15L"
+			(at 36.83 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" "C77088"
+			(at 49.53 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7e86a202-befb-44e9-a24d-3aadd49eb056")
 		)
@@ -17823,7 +18174,7 @@
 		(instances
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
