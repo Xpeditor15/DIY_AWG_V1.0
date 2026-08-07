@@ -1055,7 +1055,7 @@
 					(alternate "TIM15_CH2" bidirectional line)
 					(alternate "TIM20_BKIN2" bidirectional line)
 				)
-				(pin passive line
+				(pin bidirectional line
 					(at -22.86 53.34 0)
 					(length 5.08)
 					(name "PF0"
@@ -1359,7 +1359,7 @@
 					(alternate "UCPD1_FRSTX2" bidirectional line)
 					(alternate "USART2_TX" bidirectional line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -71.12 90)
 					(length 5.08)
 					(name "VSS"
@@ -1700,7 +1700,7 @@
 					(alternate "TIM20_CH1" bidirectional line)
 					(alternate "TIM5_CH1" bidirectional line)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 2.54 -71.12 90)
 					(length 5.08)
 					(name "VSSA"
@@ -5119,24 +5119,6 @@
 					)
 				)
 				(pin passive line
-					(at -17.78 1.27 0)
-					(length 2.54)
-					(name "Tri-State"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -17.78 -1.27 0)
 					(length 2.54)
 					(name "GND"
@@ -5183,6 +5165,26 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SX2M8.000B10F20TNN_1_1"
+				(pin passive line
+					(at -17.78 1.27 0)
+					(length 2.54)
+					(name "Tri-State"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)

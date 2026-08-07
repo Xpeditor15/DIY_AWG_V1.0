@@ -458,24 +458,6 @@
 					)
 				)
 				(pin passive line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 10.16 90)
 					(length 5.08)
 					(name "A"
@@ -558,6 +540,26 @@
 						)
 					)
 					(number "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "EC12D1564402_1_1"
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1796,7 +1798,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 -7.62 90)
 					(length 5.08)
 					(name "1"
@@ -1814,7 +1816,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -1.27 -7.62 90)
 					(length 5.08)
 					(name "2"
@@ -1832,7 +1834,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 1.27 -7.62 90)
 					(length 5.08)
 					(name "3"
@@ -1850,7 +1852,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 -7.62 90)
 					(length 5.08)
 					(name "4"
@@ -1868,7 +1870,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 7.62 270)
 					(length 5.08)
 					(name "5"
@@ -1886,7 +1888,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 1.27 7.62 270)
 					(length 5.08)
 					(name "6"
@@ -1904,7 +1906,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -1.27 7.62 270)
 					(length 5.08)
 					(name "7"
@@ -1922,7 +1924,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -11.43 7.62 270)
 					(length 5.08)
 					(name "8"
