@@ -3018,7 +3018,7 @@
 	)
 	(rectangle
 		(start 15.494 18.288)
-		(end 50.292 31.242)
+		(end 53.34 31.242)
 		(stroke
 			(width 0)
 			(type default)
@@ -3027,6 +3027,16 @@
 			(type none)
 		)
 		(uuid "a6911eb0-ab79-463e-bd55-7a8e34f34ad1")
+	)
+	(text "Research about SMD UFL testpoints for high frequency output signals\n"
+		(exclude_from_sim no)
+		(at 127.254 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1e8805fb-01d4-4da3-a197-6bf6c0ab5862")
 	)
 	(text "4.7nF MLCC (2): 04023C472KAT2A (2)\n2.2uF MLCC (4): CL21B335KAFNFNE (4)\n10uF MLCC (4): CL10A106MO8NQNC (4)\n22uF MLCC (12): GRM31CR61C226KE15L (12)\n\n22uF Tantalum Cap (2): TAJB226K016RNJ (2)\n22uF Polymer Tantalum Cap (4): T55B226M016C0070 (4)\n\n1.5uH Inductor (2): CMLO252010F1R5MTT (2)\n0.47uH Inductor (2): MNR252010TR47NT (2)\n0.33uH Inductor (2): CMLO252010FR33MTT (2)\n\n400m Resistor (6): PE0805FRF070R4L (6)\n162k Resistor (2): PTFR0603D162KP9 (2)\n21.5k Resistor (1): ARG03DTC2152 (1)\n49.9k Resistor (1): ERA-3AED4992V (1)"
 		(exclude_from_sim no)
@@ -3048,16 +3058,6 @@
 			)
 		)
 		(uuid "40fdd3d3-20bf-4548-808f-afd2400c9bde")
-	)
-	(text "5V for Vdd\n"
-		(exclude_from_sim no)
-		(at 43.942 26.924 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "44e7613e-3ae3-439c-a1e9-4a09f73c15cf")
 	)
 	(text "Place GRM31CR61C226KE15L & \nT55B226M016C0070 in parallel"
 		(exclude_from_sim no)
@@ -3560,12 +3560,6 @@
 		(uuid "b803680c-9d17-4245-86a7-170c1da20b2a")
 	)
 	(junction
-		(at 33.02 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b894309f-ed7c-4ebd-8e4d-6b9609cf5fe6")
-	)
-	(junction
 		(at 313.69 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3684,6 +3678,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f64099ab-62d3-44c7-92d4-a530672c7334")
+	)
+	(junction
+		(at 34.29 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6edc005-a69f-4291-8ef2-f9cd2af8a853")
 	)
 	(junction
 		(at 143.51 231.14)
@@ -4817,16 +4817,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 29.21) (xy 36.83 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "560fd74b-f674-49d5-9cf3-7b839436df36")
-	)
-	(wire
-		(pts
 			(xy 99.06 139.7) (xy 101.6 139.7)
 		)
 		(stroke
@@ -5124,6 +5114,16 @@
 			(type default)
 		)
 		(uuid "6fcf913c-2976-4553-88db-213711439b42")
+	)
+	(wire
+		(pts
+			(xy 34.29 29.21) (xy 36.83 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fe2c355-1fd3-479b-bafe-f5b79bcd2f10")
 	)
 	(wire
 		(pts
@@ -6037,7 +6037,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 29.21) (xy 33.02 29.21)
+			(xy 20.32 29.21) (xy 34.29 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6635,7 +6635,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "02c5b52f-5888-4746-811c-a05988f0f725")
 		(property "Reference" "#FLG01"
 			(at 22.225 26.67 0)
@@ -6649,7 +6648,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 24.13 26.6699 90)
+			(at 23.114 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10780,6 +10779,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c3baa23-b58c-4b87-9aaf-09b1e122557a")
+		(property "Reference" "TP27"
+			(at 46.482 20.828 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 44.196 21.082 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 53.34 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "faa2515f-a214-4ab8-93cb-fca2426df85b")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
+					(reference "TP27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 200.66 38.1 0)
 		(unit 1)
@@ -12528,7 +12606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 109.22 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -14447,6 +14525,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 48.26 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a45d6af6-70d1-44e8-ad15-a074a45c6c39")
+		(property "Reference" "#PWR0181"
+			(at 48.26 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5611de14-7eef-4193-9375-4b0987c8d685")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
+					(reference "#PWR0181")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 132.08 234.95 0)
 		(unit 1)
@@ -16168,7 +16325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 85.09 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -17482,7 +17639,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 33.02 29.21 0)
+		(at 34.29 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17492,7 +17649,7 @@
 		(dnp no)
 		(uuid "e473e10c-d20f-4809-a298-942c129d838c")
 		(property "Reference" "TP1"
-			(at 31.242 23.368 0)
+			(at 32.512 23.368 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17503,7 +17660,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 28.956 23.622 0)
+			(at 30.226 23.622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17514,8 +17671,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 38.1 29.21 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 39.37 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17526,7 +17683,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 29.21 0)
+			(at 39.37 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17537,7 +17694,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 33.02 29.21 0)
+			(at 34.29 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

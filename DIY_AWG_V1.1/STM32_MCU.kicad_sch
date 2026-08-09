@@ -6572,12 +6572,6 @@
 		(uuid "538172a8-9d66-4bbc-9510-12fc9bf345f2")
 	)
 	(junction
-		(at 156.21 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59c2737a-0ec8-40e1-9139-d915f781ee33")
-	)
-	(junction
 		(at 85.09 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6654,6 +6648,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5936289-96a6-4ce2-814d-7390703bc651")
+	)
+	(junction
+		(at 156.21 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c916ac92-eb88-46bc-b600-09921663db66")
 	)
 	(junction
 		(at 95.25 27.94)
@@ -7041,7 +7041,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 27.94) (xy 166.37 27.94)
+			(xy 146.05 27.94) (xy 156.21 27.94)
 		)
 		(stroke
 			(width 0)
@@ -7368,16 +7368,6 @@
 			(type default)
 		)
 		(uuid "3c45f256-7bdb-4518-bb83-3cb36d1715ff")
-	)
-	(wire
-		(pts
-			(xy 146.05 27.94) (xy 156.21 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3da6e0c8-34b8-409d-91af-9b2f201cde5b")
 	)
 	(wire
 		(pts
@@ -7738,6 +7728,16 @@
 			(type default)
 		)
 		(uuid "70e72a9e-5a57-44cc-9da6-77ef9e8ad525")
+	)
+	(wire
+		(pts
+			(xy 156.21 27.94) (xy 166.37 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "723dd59d-dcc8-4cd9-9d88-917a8df63be1")
 	)
 	(wire
 		(pts
@@ -11291,87 +11291,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 156.21 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4afab82c-6f8a-4daf-88be-7be3e06760fd")
-		(property "Reference" "C42"
-			(at 159.004 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7n"
-			(at 159.004 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.1752 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 156.21 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d36677fd-aebf-4cf3-98d2-4273a1badb45")
-		)
-		(pin "1"
-			(uuid "53d4b91b-0c63-4512-b19f-5c58a24aa894")
-		)
-		(instances
-			(project "DIY_AWG_V1.1"
-				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
-					(reference "C42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 187.96 124.46 270)
 		(unit 1)
@@ -14839,6 +14758,109 @@
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 156.21 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9ce72ae-0724-427a-987e-ae64abb3b304")
+		(property "Reference" "C42"
+			(at 159.004 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7n"
+			(at 159.258 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.1752 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
+			(at 156.21 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 156.21 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Name" "04023C472KAT2A"
+			(at 158.75 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" "C5128374"
+			(at 156.21 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a176964e-6bb6-4e29-80f9-a69f9e7885ac")
+		)
+		(pin "1"
+			(uuid "8dffaa3f-a0f5-4b9d-aaf3-64d30fa7af7d")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/aaba8d51-2713-41de-9761-99ebb3cee83e"
+					(reference "C42")
 					(unit 1)
 				)
 			)
