@@ -8795,7 +8795,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 67.31 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -9981,7 +9981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 67.31 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -10241,7 +10241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 356.87 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -14395,7 +14395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:L_SMD_SLQW2520_2.9x2.7"
+		(property "Footprint" "easyeda2kicad:L_1008_2520_SLQW2520"
 			(at 95.25 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -15539,7 +15539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 57.15 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -15616,7 +15616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 48.26 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -16844,7 +16844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 217.17 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -16923,7 +16923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 367.03 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -18233,7 +18233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 351.79 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -19289,7 +19289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 198.12 71.12 0)
 			(hide yes)
 			(show_name no)

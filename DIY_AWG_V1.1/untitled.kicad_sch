@@ -4215,7 +4215,7 @@
 	)
 	(rectangle
 		(start 15.494 18.288)
-		(end 76.2 41.91)
+		(end 83.82 41.91)
 		(stroke
 			(width 0)
 			(type default)
@@ -4547,6 +4547,12 @@
 		(uuid "361e8005-2588-4a3e-9a68-91e096c7e90e")
 	)
 	(junction
+		(at 58.42 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39582306-8738-4475-9c6f-ed7210fc9a4f")
+	)
+	(junction
 		(at 43.18 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4569,12 +4575,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "471f9ab6-1abc-40b6-9845-1785f0758963")
-	)
-	(junction
-		(at 58.42 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "518e610a-c53e-4c89-b099-3da32d87256a")
 	)
 	(junction
 		(at 200.66 38.1)
@@ -4703,6 +4703,12 @@
 		(uuid "8a9685be-3f4d-4559-97ad-ab69dbf6a716")
 	)
 	(junction
+		(at 62.23 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b3ad3a9-fa28-4aa7-8276-0f878d8e4dc0")
+	)
+	(junction
 		(at 26.67 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4725,12 +4731,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "914a328e-6199-4692-9949-82d9655a548c")
-	)
-	(junction
-		(at 58.42 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "968c5532-8e0f-4f56-b0e3-7288c8219e64")
 	)
 	(junction
 		(at 195.58 38.1)
@@ -4911,6 +4911,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5210470-dce4-4506-83b6-6bc718e784d3")
+	)
+	(junction
+		(at 58.42 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5be632c-961d-4ab6-b8a3-2b0f695d35f9")
 	)
 	(junction
 		(at 280.67 90.17)
@@ -5330,16 +5336,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 27.94) (xy 43.18 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17f87781-18ab-4bcb-baf3-1c053750bc16")
-	)
-	(wire
-		(pts
 			(xy 118.11 205.74) (xy 118.11 203.2)
 		)
 		(stroke
@@ -5347,6 +5343,16 @@
 			(type default)
 		)
 		(uuid "18af9ce3-1171-4979-9081-70fe73cebd10")
+	)
+	(wire
+		(pts
+			(xy 41.91 27.94) (xy 58.42 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e0c849-3127-4db1-b06e-96e65f05265e")
 	)
 	(wire
 		(pts
@@ -5570,7 +5576,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 30.48) (xy 41.91 30.48)
+			(xy 41.91 30.48) (xy 62.23 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5810,6 +5816,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 20.32) (xy 58.42 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "370a2e7a-2722-40e8-a6d0-44b28065171b")
+	)
+	(wire
+		(pts
 			(xy 80.01 195.58) (xy 66.04 195.58)
 		)
 		(stroke
@@ -5847,16 +5863,6 @@
 			(type default)
 		)
 		(uuid "3e1a5205-d9cc-40c0-a3b2-fc48c99e516a")
-	)
-	(wire
-		(pts
-			(xy 43.18 27.94) (xy 43.18 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ef60914-e31c-429a-b51f-16290b92c982")
 	)
 	(wire
 		(pts
@@ -6180,6 +6186,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 30.48) (xy 64.77 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f3b9fe-65ce-4d47-860d-b4470a8c9cc2")
+	)
+	(wire
+		(pts
 			(xy 212.09 104.14) (xy 212.09 105.41)
 		)
 		(stroke
@@ -6337,6 +6353,16 @@
 			(type default)
 		)
 		(uuid "6371453c-550d-40ae-be59-d1a24324c8ef")
+	)
+	(wire
+		(pts
+			(xy 58.42 35.56) (xy 58.42 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64fe52a3-e7ec-4f60-a878-7c3003f4afc7")
 	)
 	(wire
 		(pts
@@ -7430,6 +7456,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 22.86) (xy 58.42 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6d7c37-f9ae-428c-95ea-ec5288617a51")
+	)
+	(wire
+		(pts
 			(xy 226.06 43.18) (xy 226.06 38.1)
 		)
 		(stroke
@@ -8127,6 +8163,83 @@
 			(type default)
 		)
 		(uuid "fff9c6a0-ea9a-400d-8060-140a47da177b")
+	)
+	(symbol
+		(lib_id "power:+VSW")
+		(at 64.77 30.48 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "06adde93-0b75-4a68-bf7a-b5e9d9b8b221")
+		(property "Reference" "#PWR0206"
+			(at 60.96 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-VSW12V0"
+			(at 72.39 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VSW\""
+			(at 64.77 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8f0e58b-7996-4da6-8249-04f9eb658ba1")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
+					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -8853,6 +8966,85 @@
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
 					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 62.23 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "109e0cc3-2bfb-4e3c-a042-4fcc74c91b06")
+		(property "Reference" "TP22"
+			(at 63.5 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 58.166 24.892 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 67.31 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 62.23 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7cbd93d1-0824-49c8-8e7d-f2388cf57747")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -11501,7 +11693,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 58.42 25.4 0)
+		(at 58.42 20.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11512,7 +11704,7 @@
 		(fields_autoplaced yes)
 		(uuid "3baec15f-eb04-4201-9007-612119767ab4")
 		(property "Reference" "#PWR019"
-			(at 58.42 29.21 0)
+			(at 54.61 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11523,17 +11715,18 @@
 			)
 		)
 		(property "Value" "+VSW5V0"
-			(at 58.42 20.32 0)
+			(at 62.23 20.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 25.4 0)
+			(at 58.42 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11544,7 +11737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 25.4 0)
+			(at 58.42 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11555,7 +11748,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 58.42 25.4 0)
+			(at 58.42 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12962,7 +13155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 162.56 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -13141,7 +13334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 295.91 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -14339,7 +14532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 109.22 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -15836,7 +16029,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 30.48 0)
+		(at 80.01 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15847,7 +16040,7 @@
 		(fields_autoplaced yes)
 		(uuid "89dabc74-952f-4941-b376-933451d62069")
 		(property "Reference" "#PWR022"
-			(at 72.39 36.83 0)
+			(at 80.01 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15858,7 +16051,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 35.56 0)
+			(at 80.01 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15869,7 +16062,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 30.48 0)
+			(at 80.01 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15880,7 +16073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 30.48 0)
+			(at 80.01 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15891,7 +16084,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 30.48 0)
+			(at 80.01 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16273,6 +16466,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 58.42 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97425aa5-bd9c-4f23-a6b8-4826f28e8078")
+		(property "Reference" "#PWR0207"
+			(at 58.42 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "428ea92a-0d30-4346-bad6-8dd17de86c25")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
+					(reference "#PWR0207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 39.37 248.92 0)
 		(mirror y)
@@ -16642,7 +16914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 58.42 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -18565,7 +18837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 85.09 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -18923,7 +19195,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 58.42 25.4 270)
+		(at 58.42 22.86 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18933,7 +19205,7 @@
 		(dnp no)
 		(uuid "c5780405-5952-462d-af4e-716c70abea60")
 		(property "Reference" "TP1"
-			(at 63.5 25.4 90)
+			(at 63.5 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18944,7 +19216,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 64.008 21.336 0)
+			(at 64.008 18.796 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18955,8 +19227,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 58.42 30.48 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 58.42 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18967,7 +19239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 30.48 0)
+			(at 58.42 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18978,7 +19250,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 58.42 25.4 0)
+			(at 58.42 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19034,7 +19306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 323.85 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -20000,7 +20272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 137.16 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -20781,7 +21053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 109.22 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -21303,7 +21575,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 72.39 30.48 0)
+		(at 80.01 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21313,7 +21585,7 @@
 		(dnp no)
 		(uuid "f476d0d0-96c9-48e3-8f70-b1b7502ccf63")
 		(property "Reference" "TP3"
-			(at 70.612 24.638 0)
+			(at 78.232 22.098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21324,7 +21596,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 68.326 24.892 0)
+			(at 75.946 22.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21335,8 +21607,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 77.47 30.48 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 85.09 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21347,7 +21619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 30.48 0)
+			(at 85.09 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21358,7 +21630,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 72.39 30.48 0)
+			(at 80.01 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21641,7 +21913,7 @@
 	)
 	(symbol
 		(lib_id "power:+VSW")
-		(at 58.42 33.02 180)
+		(at 58.42 35.56 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21652,7 +21924,7 @@
 		(fields_autoplaced yes)
 		(uuid "f952d523-af74-44be-bf57-d3b522296002")
 		(property "Reference" "#PWR020"
-			(at 58.42 29.21 0)
+			(at 58.42 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21663,7 +21935,7 @@
 			)
 		)
 		(property "Value" "+VSW12V0"
-			(at 58.42 38.1 0)
+			(at 58.42 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21673,7 +21945,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 33.02 0)
+			(at 58.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21684,7 +21956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 33.02 0)
+			(at 58.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21695,7 +21967,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VSW\""
-			(at 58.42 33.02 0)
+			(at 58.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
