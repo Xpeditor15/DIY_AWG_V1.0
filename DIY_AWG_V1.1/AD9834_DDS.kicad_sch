@@ -3529,7 +3529,7 @@
 		)
 		(uuid "b472dbba-775c-4c47-88e8-3227960e7bb3")
 	)
-	(text "A: Custom Waveform from STM32 DAC\nB: Sine Waveform from AD9834\nC: DC Gain for LMH6505\nD: Grounded"
+	(text "A: Custom Waveform from STM32 DAC\nB: Sine Waveform from AD9834\nC: Grounded\nD: DC Gain for LMH6505"
 		(exclude_from_sim no)
 		(at 169.418 128.524 0)
 		(effects

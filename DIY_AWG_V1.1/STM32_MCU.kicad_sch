@@ -9433,7 +9433,7 @@
 		)
 		(uuid "3f76ad6b-067d-4f6a-9d30-dea72edd4433")
 	)
-	(label "UART4_TX"
+	(label "UART_TX4"
 		(at 257.81 34.29 0)
 		(effects
 			(font
@@ -9673,7 +9673,7 @@
 		)
 		(uuid "8d0965a5-e085-4b64-bd7a-ecc7b1f79c5c")
 	)
-	(label "UART4_RX"
+	(label "UART_RX4"
 		(at 257.81 36.83 0)
 		(effects
 			(font
