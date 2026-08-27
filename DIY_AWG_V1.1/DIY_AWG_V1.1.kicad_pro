@@ -821,7 +821,7 @@
         "uuid": "508078af-d961-4af3-840e-a064a9f8d5bc"
       }
     ],
-    "used_designators": "LED8-10,#PWR204-209,R51-53",
+    "used_designators": "LED11,#PWR210,R54",
     "variants": []
   },
   "sheets": [

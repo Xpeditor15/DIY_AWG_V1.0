@@ -3844,6 +3844,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6696,7 +6697,7 @@
 	(footprint "easyeda2kicad:TESTPOINT-SMD_L3.8-W2.0_RH-5019"
 		(layer "F.Cu")
 		(uuid "1f7dc66b-0d27-42ea-800b-2ea5d3328c66")
-		(at 42 72.5)
+		(at 41.9 71.3)
 		(property "Reference" "CN5"
 			(at 0 -2.2 0)
 			(layer "F.SilkS")
@@ -11878,7 +11879,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "3932068f-15b6-42c4-a8d7-29605d475afb")
-		(at 86.5 46.65 -90)
+		(at 86.3 46.7 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C38"
@@ -30852,6 +30853,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -42034,6 +42036,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -60005,7 +60008,7 @@
 		)
 	)
 	(gr_text "-5V"
-		(at 40.5 70.5 0)
+		(at 40.4 69.6 0)
 		(layer "F.SilkS")
 		(uuid "9b526da3-f60c-48b7-af96-f537f906c88f")
 		(effects
