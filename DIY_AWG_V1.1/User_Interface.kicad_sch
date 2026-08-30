@@ -2280,6 +2280,16 @@
 		)
 		(uuid "2c4d36d2-8974-40b6-8953-16c123120e96")
 	)
+	(text "UPDATE FPC CONNECTOR ARRANGEMENT"
+		(exclude_from_sim no)
+		(at 193.802 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "38ea4617-7a03-47e0-be78-a6b2db38af7d")
+	)
 	(text "100nF MLCC (5): C0603C104J3RACTU (5)\n"
 		(exclude_from_sim no)
 		(at 198.12 59.69 0)
