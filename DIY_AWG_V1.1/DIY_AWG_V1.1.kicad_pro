@@ -910,7 +910,7 @@
         "uuid": "508078af-d961-4af3-840e-a064a9f8d5bc"
       }
     ],
-    "used_designators": "C86,LED11-13,#PWR110,#PWR210-217,R54-56,TP28-29",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
