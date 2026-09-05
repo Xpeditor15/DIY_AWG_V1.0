@@ -292,19 +292,7 @@
   "erc": {
     "erc_exclusions": [
       [
-        "lib_symbol_mismatch|1320800|1104900|66c7e642-e5fa-491d-a375-0793f46a5bc0|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_mismatch|952500|2362200|0865446c-1cbf-4f98-96f0-8391bfc0a6b3|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_mismatch|952500|2387600|0865446c-1cbf-4f98-96f0-8391bfc0a6b3|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "multiple_net_names|279400|1320800|43bbf0b3-f0d6-44a3-88dd-e24d70059c18|14051f03-9c1a-4494-b5ba-9027c201a2cb|/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d|/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d|/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d",
+        "multiple_net_names|279400|1320800|43bbf0b3-f0d6-44a3-88dd-e24d70059c18|14051f03-9c1a-4494-b5ba-9027c201a2cb|||",
         ""
       ]
     ],
@@ -910,33 +898,13 @@
         "uuid": "508078af-d961-4af3-840e-a064a9f8d5bc"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D1-4,#PWR107-116,#PWR162-184,#PWR213-215,U14-15,FPC1-3,J3,TP28-29,C71-75,SW5-25,#FLG1-3,H1-4",
     "variants": []
   },
   "sheets": [
     [
       "508078af-d961-4af3-840e-a064a9f8d5bc",
       "DIY_AWG_V1.1"
-    ],
-    [
-      "8acbd35e-0359-4140-a5a5-b9cabf9b139d",
-      "Power_Supply"
-    ],
-    [
-      "aaba8d51-2713-41de-9761-99ebb3cee83e",
-      "STM32_MCU"
-    ],
-    [
-      "1a114e8b-a4a5-4450-90ed-0b55a984bade",
-      "AD9834_DDS"
-    ],
-    [
-      "5e4867af-4e97-464f-8d5d-dfa2d7b207c5",
-      "User_Interface"
-    ],
-    [
-      "faa0e7f2-4ad4-4392-8346-980541b6a840",
-      "Amplifier"
     ]
   ],
   "text_variables": {},
