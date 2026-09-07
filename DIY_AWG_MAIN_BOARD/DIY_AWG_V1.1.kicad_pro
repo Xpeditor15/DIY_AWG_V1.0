@@ -39,15 +39,15 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.376,
-          "width": 1.9
+          "drill": 0.3,
+          "height": 0.8,
+          "width": 0.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
           "border_display_style": 2,
@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.05,
+          "min_clearance": 0.15,
           "min_island_area": 10.0,
-          "min_thickness": 0.1,
+          "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.15,
@@ -76,7 +76,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|106420000|23025000|4265839b-9877-4ef4-942b-313b0a4cd375|85347414-8830-4bb3-a5c2-f9e9211f0d38",
+          ""
+        ],
+        [
+          "silk_edge_clearance|121000000|104160000|4265839b-9877-4ef4-942b-313b0a4cd375|2a79d989-938e-45df-bb05-1a7504b4dfb6",
+          ""
+        ],
+        [
+          "silk_edge_clearance|121000000|89940000|4265839b-9877-4ef4-942b-313b0a4cd375|42544a0a-febd-466e-873e-0dae9c957e7d",
+          ""
+        ],
+        [
+          "silk_edge_clearance|121120000|89960000|4265839b-9877-4ef4-942b-313b0a4cd375|93cdd83e-584c-40ed-a923-9cd87604b9b0",
+          ""
+        ],
+        [
+          "silk_edge_clearance|97480000|23025000|4265839b-9877-4ef4-942b-313b0a4cd375|2afb53f2-1d2b-4522-bfd8-873256d7bd42",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -156,8 +177,8 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
@@ -929,10 +950,6 @@
     [
       "1a114e8b-a4a5-4450-90ed-0b55a984bade",
       "AD9834_DDS"
-    ],
-    [
-      "5e4867af-4e97-464f-8d5d-dfa2d7b207c5",
-      "User_Interface"
     ],
     [
       "faa0e7f2-4ad4-4392-8346-980541b6a840",
