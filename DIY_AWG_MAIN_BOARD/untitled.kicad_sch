@@ -5832,7 +5832,7 @@
 		)
 		(uuid "a6911eb0-ab79-463e-bd55-7a8e34f34ad1")
 	)
-	(text "4.7nF MLCC (2): 04023C472KAT2A (2)\n2.2uF MLCC (4): CL21B335KAFNFNE (4)\n10uF MLCC (4): CL10A106MO8NQNC (4)\n22uF MLCC (12): GRM31CR61C226KE15L (12)\n\n22uF Tantalum Cap (2): TAJB226K016RNJ (2)\n22uF Polymer Tantalum Cap (4): T55B226M016C0070 (4)\n\n1.5uH Inductor (2): CMLO252010F1R5MTT (2)\n0.47uH Inductor (2): MNR252010TR47NT (2)\n0.33uH Inductor (2): CMLO252010FR33MTT (2)\n\n400m Resistor (6): PE0805FRF070R4L (6)\n1k Resistor (4): THD03G1001BT (4)\n2k Resistor (2): AR03BTDX2001 (2)\n162k Resistor (2): PTFR0603D162KP9 (2)\n21.5k Resistor (1): ARG03DTC2152 (1)\n49.9k Resistor (1): ERA-3AED4992V (1)"
+	(text "4.7nF MLCC (2): 04023C472KAT2A (2)\n2.2uF MLCC (4): CL21B335KAFNFNE (4)\n10uF MLCC (4): CL10A106MO8NQNC (4)\n22uF MLCC (12): GRM31CR61C226KE15L (12)\n100uF MLCC (4): EMK325ABJ107MM-T (4)\n\n22uF Tantalum Cap (2): TAJB226K016RNJ (2)\n\n1.5uH Inductor (2): CMLO252010F1R5MTT (2)\n0.47uH Inductor (2): MNR252010TR47NT (2)\n0.33uH Inductor (2): CMLO252010FR33MTT (2)\n\n400m Resistor (6): PE0805FRF070R4L (6)\n1k Resistor (4): THD03G1001BT (4)\n2k Resistor (2): AR03BTDX2001 (2)\n162k Resistor (2): PTFR0603D162KP9 (2)\n21.5k Resistor (1): ARG03DTC2152 (1)\n49.9k Resistor (1): ERA-3AED4992V (1)"
 		(exclude_from_sim no)
 		(at 118.11 71.12 0)
 		(effects
@@ -5853,7 +5853,7 @@
 		)
 		(uuid "40fdd3d3-20bf-4548-808f-afd2400c9bde")
 	)
-	(text "Place GRM31CR61C226KE15L & \nT55B226M016C0070 in parallel"
+	(text "Place GRM31CR61C226KE15L & \nEMK325ABJ107MM-T in parallel"
 		(exclude_from_sim no)
 		(at 145.034 245.618 0)
 		(effects
@@ -5883,7 +5883,7 @@
 		)
 		(uuid "70d5e2b2-ddbc-4563-8a8c-b6f30d81239c")
 	)
-	(text "Place GRM31CR61C226KE15L & \nT55B226M016C0070 in parallel"
+	(text "Place GRM31CR61C226KE15L & \nEMK325ABJ107MM-T in parallel"
 		(exclude_from_sim no)
 		(at 135.89 232.41 0)
 		(effects
@@ -5943,7 +5943,7 @@
 		)
 		(uuid "9c564a12-26ed-41f5-b36e-81be0acffccf")
 	)
-	(text "Place GRM31CR61C226KE15L & \nT55B226M016C0070 in parallel"
+	(text "Place GRM31CR61C226KE15L & \nEMK325ABJ107MM-T in parallel"
 		(exclude_from_sim no)
 		(at 311.15 77.47 0)
 		(effects
@@ -6033,7 +6033,7 @@
 		)
 		(uuid "cf3cb157-6ac6-4e4b-a2dd-3708223429da")
 	)
-	(text "Place GRM31CR61C226KE15L & \nT55B226M016C0070 in parallel"
+	(text "Place GRM31CR61C226KE15L & \nEMK325ABJ107MM-T in parallel"
 		(exclude_from_sim no)
 		(at 293.37 64.77 0)
 		(effects
@@ -10645,6 +10645,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 321.31 96.52 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0e46921d-b884-4a26-b538-7ec36c5bed18")
+		(property "Reference" "C30"
+			(at 327.66 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 328.676 98.806 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 320.3448 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C394395.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=FgQNVlFSRFMLU1UARQdcUwACFgdYAlBSFgAIBlRfFQQxVlNRT1RcVVJUQlBdVztW"
+			(at 321.31 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 321.31 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Name" "EMK325ABJ107MM-T"
+			(at 333.248 102.108 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" "C77088"
+			(at 321.31 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "79785294-8381-4f8a-967a-a6d1918b9787")
+		)
+		(pin "1"
+			(uuid "81bec4db-21b4-4bcc-bc2d-606530e08e43")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 132.08 276.86 0)
 		(unit 1)
@@ -12272,6 +12375,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 133.35 214.63 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "22f1c24d-84fd-4af0-af1c-1e7154e09f01")
+		(property "Reference" "C17"
+			(at 139.7 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 140.716 216.916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 132.3848 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C394395.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=FgQNVlFSRFMLU1UARQdcUwACFgdYAlBSFgAIBlRfFQQxVlNRT1RcVVJUQlBdVztW"
+			(at 133.35 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 133.35 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Name" "EMK325ABJ107MM-T"
+			(at 145.288 220.218 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" "C77088"
+			(at 133.35 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "de4ea44e-bf75-4959-9dfc-ecdbdd62ee83")
+		)
+		(pin "1"
+			(uuid "b7c8c6bb-7f81-4053-a4d5-524ac813a619")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 193.04 83.82 90)
 		(unit 1)
@@ -12873,108 +13079,6 @@
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 133.35 214.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "28b779e9-22da-4d93-806b-3865d50e39ce")
-		(property "Reference" "C17"
-			(at 136.144 213.106 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 136.144 215.646 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_L3.5-W2.8-FD"
-			(at 134.3152 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2158234.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.3.xh&lcsc_vid=T1JWBF0CFlNaA1FXFVFYXgVRE1FXAldRRlNWA1IDQQQxVlNRTlJZX1RRR1ZYXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktfQ1BADxALGw%3D%3D"
-			(at 133.35 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 133.35 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Component Name" "T55B106M016C0100"
-			(at 144.78 218.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC ID" "C2158234"
-			(at 133.35 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b7159b55-e1ce-4344-a3a2-b5f434504ee6")
-		)
-		(pin "2"
-			(uuid "bece46d0-2f60-44f4-97b4-ae3e94d57247")
-		)
-		(instances
-			(project "DIY_AWG_V1.1"
-				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -22233,108 +22337,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 153.67 262.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b2c84f69-41a7-466a-909f-810492e35920")
-		(property "Reference" "C19"
-			(at 156.464 261.366 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 156.464 263.906 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_L3.5-W2.8-FD"
-			(at 154.6352 266.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2158234.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.3.xh&lcsc_vid=T1JWBF0CFlNaA1FXFVFYXgVRE1FXAldRRlNWA1IDQQQxVlNRTlJZX1RRR1ZYXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktfQ1BADxALGw%3D%3D"
-			(at 153.67 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 153.67 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Component Name" "T55B106M016C0100"
-			(at 163.83 269.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC ID" "C2158234"
-			(at 153.67 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b416114-e7d2-483a-a381-fab1a5c88978")
-		)
-		(pin "2"
-			(uuid "95d7e5f7-188f-46c4-8c11-9e2e5d89b305")
-		)
-		(instances
-			(project "DIY_AWG_V1.1"
-				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:XL-1608SURC-06")
 		(at 346.71 105.41 270)
 		(unit 1)
@@ -22932,108 +22934,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 321.31 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bb4cbcbd-a94a-4c05-b168-a25f3ffccc8f")
-		(property "Reference" "C30"
-			(at 324.104 94.996 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 324.104 97.536 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_L3.5-W2.8-FD"
-			(at 322.2752 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2158234.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.3.xh&lcsc_vid=T1JWBF0CFlNaA1FXFVFYXgVRE1FXAldRRlNWA1IDQQQxVlNRTlJZX1RRR1ZYXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktfQ1BADxALGw%3D%3D"
-			(at 321.31 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 321.31 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Component Name" "T55B106M016C0100"
-			(at 331.47 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC ID" "C2158234"
-			(at 321.31 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b48ea3dc-485f-4037-8277-d2430ad1c1f2")
-		)
-		(pin "2"
-			(uuid "1bcec8c3-a5d3-47a6-9fd5-1ca16f5c4aeb")
-		)
-		(instances
-			(project "DIY_AWG_V1.1"
-				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 110.49 44.45 0)
 		(unit 1)
@@ -23472,6 +23372,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 153.67 262.89 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0f80554-470b-4311-aa63-4d00603a30ac")
+		(property "Reference" "C19"
+			(at 160.02 261.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 161.036 265.176 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 152.7048 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C394395.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=FgQNVlFSRFMLU1UARQdcUwACFgdYAlBSFgAIBlRfFQQxVlNRT1RcVVJUQlBdVztW"
+			(at 153.67 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Name" "EMK325ABJ107MM-T"
+			(at 165.608 268.478 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" "C77088"
+			(at 153.67 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e4d746b2-02fe-491b-abc9-b45d07a4a03d")
+		)
+		(pin "1"
+			(uuid "482ae790-6a4a-4e0a-9f61-a47d8ca6012d")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 80.01 66.04 0)
 		(unit 1)
@@ -23623,6 +23626,109 @@
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 293.37 44.45 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c477fba7-4a94-4f00-bd8f-745ca5d2823b")
+		(property "Reference" "C28"
+			(at 299.72 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 300.736 46.736 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 292.4048 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C394395.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=FgQNVlFSRFMLU1UARQdcUwACFgdYAlBSFgAIBlRfFQQxVlNRT1RcVVJUQlBdVztW"
+			(at 293.37 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 293.37 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Name" "EMK325ABJ107MM-T"
+			(at 305.308 50.038 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC ID" "C77088"
+			(at 293.37 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c3eee52b-0121-4465-b469-c0ea18430db1")
+		)
+		(pin "1"
+			(uuid "9d3b69fe-53dc-42f2-8972-b0b9ea7a18d6")
+		)
+		(instances
+			(project "DIY_AWG_V1.1"
+				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -25001,108 +25107,6 @@
 			(project "DIY_AWG_V1.1"
 				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 293.37 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dadb6793-0da3-4ac5-a2ef-82019f922ed9")
-		(property "Reference" "C28"
-			(at 296.164 42.926 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 296.164 45.466 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CAP-SMD_L3.5-W2.8-FD"
-			(at 294.3352 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2158234.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.3.xh&lcsc_vid=T1JWBF0CFlNaA1FXFVFYXgVRE1FXAldRRlNWA1IDQQQxVlNRTlJZX1RRR1ZYXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktfQ1BADxALGw%3D%3D"
-			(at 293.37 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 293.37 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Component Name" "T55B106M016C0100"
-			(at 303.53 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC ID" "C2158234"
-			(at 293.37 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9d691e00-48e1-4a3e-aebf-4826a4f15b8e")
-		)
-		(pin "2"
-			(uuid "7f528f49-2011-4688-aea7-ca2d50575a3e")
-		)
-		(instances
-			(project "DIY_AWG_V1.1"
-				(path "/508078af-d961-4af3-840e-a064a9f8d5bc/8acbd35e-0359-4140-a5a5-b9cabf9b139d"
-					(reference "C28")
 					(unit 1)
 				)
 			)

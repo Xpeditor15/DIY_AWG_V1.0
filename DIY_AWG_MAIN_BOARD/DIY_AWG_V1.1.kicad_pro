@@ -90,22 +90,6 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|48800000|78375000|02133a09-26e0-4938-86c6-ce7cce6ab579|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|54375000|93455000|68ea0bf4-a28d-44eb-8154-0c2550dadfd8|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|55000000|108850000|7bd97079-0937-4b80-9c3e-3bb65093e662|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|66900000|95725000|7cb7d641-24ca-46a9-9f88-2c6f7ae35e6f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|87537500|113500000|e414bdc0-57e3-48e2-a5ae-8c5ba4256fc4|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -706,7 +690,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../../../Downloads/",
+      "plot": "../../../../../Downloads/AWG_GERBERS/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -951,7 +935,7 @@
         "uuid": "508078af-d961-4af3-840e-a064a9f8d5bc"
       }
     ],
-    "used_designators": "#PWR218",
+    "used_designators": "#PWR218-221,C17,C19,C28,C30,C42,C71-73",
     "variants": []
   },
   "sheets": [
