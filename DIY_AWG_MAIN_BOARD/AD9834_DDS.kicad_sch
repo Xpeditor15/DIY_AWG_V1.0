@@ -7929,7 +7929,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "3.3u"
 			(at 70.104 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16988,7 +16988,7 @@
 				)
 			)
 		)
-		(property "Component Name" "1812CS-102XJLC"
+		(property "Component Name" "1812CS-102XGLC"
 			(at 90.424 40.132 90)
 			(show_name no)
 			(do_not_autoplace no)

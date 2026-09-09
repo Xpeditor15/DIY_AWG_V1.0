@@ -5832,7 +5832,7 @@
 		)
 		(uuid "a6911eb0-ab79-463e-bd55-7a8e34f34ad1")
 	)
-	(text "4.7nF MLCC (2): 04023C472KAT2A (2)\n2.2uF MLCC (4): CL21B335KAFNFNE (4)\n10uF MLCC (4): CL10A106MO8NQNC (4)\n22uF MLCC (12): GRM31CR61C226KE15L (12)\n100uF MLCC (4): EMK325ABJ107MM-T (4)\n\n22uF Tantalum Cap (2): TAJB226K016RNJ (2)\n\n1.5uH Inductor (2): CMLO252010F1R5MTT (2)\n0.47uH Inductor (2): MNR252010TR47NT (2)\n0.33uH Inductor (2): CMLO252010FR33MTT (2)\n\n400m Resistor (6): PE0805FRF070R4L (6)\n1k Resistor (4): THD03G1001BT (4)\n2k Resistor (2): AR03BTDX2001 (2)\n162k Resistor (2): PTFR0603D162KP9 (2)\n21.5k Resistor (1): ARG03DTC2152 (1)\n49.9k Resistor (1): ERA-3AED4992V (1)"
+	(text "4.7nF MLCC (2): 04023C472KAT2A (2)\n3.3uF MLCC (4): CL21B335KAFNFNE (4)\n10uF MLCC (4): CL10A106MO8NQNC (4)\n22uF MLCC (12): GRM31CR61C226KE15L (12)\n100uF MLCC (4): EMK325ABJ107MM-T (4)\n\n22uF Tantalum Cap (2): TAJB226K016RNJ (2)\n\n1.5uH Inductor (2): CMLO252010F1R5MTT (2)\n0.47uH Inductor (2): MNR252010TR47NT (2)\n0.33uH Inductor (2): CMLO252010FR33MTT (2)\n\n400m Resistor (6): PE0805FRF070R4L (6)\n1k Resistor (4): THD03G1001BT (4)\n2k Resistor (2): AR03BTDX2001 (2)\n162k Resistor (2): PTFR0603D162KP9 (2)\n21.5k Resistor (1): ARG03DTC2152 (1)\n49.9k Resistor (1): ERA-3AED4992V (1)"
 		(exclude_from_sim no)
 		(at 118.11 71.12 0)
 		(effects
@@ -10150,7 +10150,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "3.3u"
 			(at 68.834 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24327,7 +24327,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "3.3u"
 			(at 228.854 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25032,7 +25032,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "3.3u"
 			(at 57.404 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25808,7 +25808,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "3.3u"
 			(at 222.504 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
